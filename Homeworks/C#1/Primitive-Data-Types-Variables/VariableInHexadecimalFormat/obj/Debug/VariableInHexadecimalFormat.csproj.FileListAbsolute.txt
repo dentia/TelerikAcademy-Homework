@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\VariableInHexadecimalFormat\bin\Debug\VariableInHexadecimalFormat.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\VariableInHexadecimalFormat\bin\Debug\VariableInHexadecimalFormat.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\VariableInHexadecimalFormat\bin\Debug\VariableInHexadecimalFormat.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\VariableInHexadecimalFormat\obj\Debug\VariableInHexadecimalFormat.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\VariableInHexadecimalFormat\obj\Debug\VariableInHexadecimalFormat.pdb

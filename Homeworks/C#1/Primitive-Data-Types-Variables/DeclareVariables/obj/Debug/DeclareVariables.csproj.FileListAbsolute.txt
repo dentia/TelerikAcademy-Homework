@@ -1,0 +1,6 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\DeclareVariables\bin\Debug\DeclareVariables.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\DeclareVariables\obj\Debug\DeclareVariables.csprojResolveAssemblyReference.cache
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\DeclareVariables\bin\Debug\DeclareVariables.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\DeclareVariables\bin\Debug\DeclareVariables.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\DeclareVariables\obj\Debug\DeclareVariables.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\DeclareVariables\obj\Debug\DeclareVariables.pdb

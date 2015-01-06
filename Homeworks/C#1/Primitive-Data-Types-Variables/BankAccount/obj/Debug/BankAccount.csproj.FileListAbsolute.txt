@@ -1,0 +1,6 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BankAccount\bin\Debug\BankAccount.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BankAccount\bin\Debug\BankAccount.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BankAccount\bin\Debug\BankAccount.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BankAccount\obj\Debug\BankAccount.csprojResolveAssemblyReference.cache
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BankAccount\obj\Debug\BankAccount.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BankAccount\obj\Debug\BankAccount.pdb

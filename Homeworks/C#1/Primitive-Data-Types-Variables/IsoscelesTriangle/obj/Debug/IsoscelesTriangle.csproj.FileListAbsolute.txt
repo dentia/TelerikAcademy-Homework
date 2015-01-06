@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\IsoscelesTriangle\bin\Debug\IsoscelesTriangle.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\IsoscelesTriangle\bin\Debug\IsoscelesTriangle.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\IsoscelesTriangle\bin\Debug\IsoscelesTriangle.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\IsoscelesTriangle\obj\Debug\IsoscelesTriangle.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\IsoscelesTriangle\obj\Debug\IsoscelesTriangle.pdb

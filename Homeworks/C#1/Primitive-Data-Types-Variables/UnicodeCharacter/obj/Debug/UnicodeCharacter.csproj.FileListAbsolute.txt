@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\UnicodeCharacter\bin\Debug\UnicodeCharacter.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\UnicodeCharacter\bin\Debug\UnicodeCharacter.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\UnicodeCharacter\bin\Debug\UnicodeCharacter.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\UnicodeCharacter\obj\Debug\UnicodeCharacter.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\UnicodeCharacter\obj\Debug\UnicodeCharacter.pdb
