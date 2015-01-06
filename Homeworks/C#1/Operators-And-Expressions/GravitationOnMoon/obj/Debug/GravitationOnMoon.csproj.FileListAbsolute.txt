@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\GravitationOnMoon\bin\Debug\GravitationOnMoon.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\GravitationOnMoon\bin\Debug\GravitationOnMoon.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\GravitationOnMoon\bin\Debug\GravitationOnMoon.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\GravitationOnMoon\obj\Debug\GravitationOnMoon.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\GravitationOnMoon\obj\Debug\GravitationOnMoon.pdb

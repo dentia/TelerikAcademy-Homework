@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitsExchange\bin\Debug\BitsExchange.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitsExchange\bin\Debug\BitsExchange.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitsExchange\bin\Debug\BitsExchange.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitsExchange\obj\Debug\BitsExchange.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitsExchange\obj\Debug\BitsExchange.pdb

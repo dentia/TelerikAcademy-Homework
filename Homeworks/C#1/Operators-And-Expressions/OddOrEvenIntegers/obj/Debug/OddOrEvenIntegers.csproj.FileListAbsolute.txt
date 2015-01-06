@@ -1,0 +1,6 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\OddOrEvenIntegers\bin\Debug\OddOrEvenIntegers.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\OddOrEvenIntegers\bin\Debug\OddOrEvenIntegers.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\OddOrEvenIntegers\bin\Debug\OddOrEvenIntegers.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\OddOrEvenIntegers\obj\Debug\OddOrEvenIntegers.csprojResolveAssemblyReference.cache
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\OddOrEvenIntegers\obj\Debug\OddOrEvenIntegers.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\OddOrEvenIntegers\obj\Debug\OddOrEvenIntegers.pdb

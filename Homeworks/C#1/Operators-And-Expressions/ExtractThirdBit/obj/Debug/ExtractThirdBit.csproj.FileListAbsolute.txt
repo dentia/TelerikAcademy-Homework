@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ExtractThirdBit\bin\Debug\ExtractThirdBit.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ExtractThirdBit\bin\Debug\ExtractThirdBit.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ExtractThirdBit\bin\Debug\ExtractThirdBit.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ExtractThirdBit\obj\Debug\ExtractThirdBit.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ExtractThirdBit\obj\Debug\ExtractThirdBit.pdb

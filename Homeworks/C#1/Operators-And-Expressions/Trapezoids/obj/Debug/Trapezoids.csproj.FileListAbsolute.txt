@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\Trapezoids\bin\Debug\Trapezoids.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\Trapezoids\bin\Debug\Trapezoids.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\Trapezoids\bin\Debug\Trapezoids.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\Trapezoids\obj\Debug\Trapezoids.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\Trapezoids\obj\Debug\Trapezoids.pdb

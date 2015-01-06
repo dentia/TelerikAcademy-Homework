@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.pdb
