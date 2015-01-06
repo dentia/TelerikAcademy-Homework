@@ -1,0 +1,16 @@
+Perform a research (eg in Google or Wikipedia) and provide a
+short list with popular development environments (IDEs) like Visual Studio.
+
+First of all I have to mention Jet-Brain's IDEs.
+PhpStorm, WebStorm, intelliJ IDEA and so on.
+All of them are great and I strongly recommend them.
+
+For the Linux-lovers who also want to program in C #, Mono is a must.
+It is really easy to use, but it's not all good - it has really poor
+intellisense, if any, and it does not provide all the features that VS does.
+
+Eclipse - maybe the most popular Java IDE out there. I really like it
+although in my opinion IntelliJ IDEA is better.
+
+Code :: Blocks is primarily used for C and C ++. It's not a bad IDE, but not
+the best one either.

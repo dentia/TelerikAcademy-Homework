@@ -1,0 +1,20 @@
+Perform a research (e.g. in Google or Wikipedia) and provide a short list 
+with information about the most popular programming languages. 
+How similar are they to C#? How do they differ from C#?
+
+Some of the most popular programming languages are the C-like ones.
+They include C, C++, C#, Java, PHP, Python, Objective-C etc.
+
+Almost all of them are widely used nowadays for different purposes.
+For example, until Swift was introduced in 2014, Objective-C was the main
+programming language used by Apple for the OS X and iOS operating systems.
+
+In turn, Java is considered to be the best choice for very big projects, 
+in which many programmers are involved.
+
+PHP can include HTML, so it is very popular among the front-enders.
+
+C is very fast, due to its low level, so it's primarily used for drivers
+and OSs.
+
+C++ is mainly used in the game development sector.

@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\SquareRoot\bin\Debug\SquareRoot.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\SquareRoot\bin\Debug\SquareRoot.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\SquareRoot\bin\Debug\SquareRoot.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\SquareRoot\obj\Debug\SquareRoot.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\SquareRoot\obj\Debug\SquareRoot.pdb
