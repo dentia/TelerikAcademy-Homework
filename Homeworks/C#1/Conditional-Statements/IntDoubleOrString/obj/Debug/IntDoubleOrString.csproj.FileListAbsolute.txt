@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\IntDoubleOrString\bin\Debug\IntDoubleOrString.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\IntDoubleOrString\bin\Debug\IntDoubleOrString.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\IntDoubleOrString\bin\Debug\IntDoubleOrString.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\IntDoubleOrString\obj\Debug\IntDoubleOrString.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\IntDoubleOrString\obj\Debug\IntDoubleOrString.pdb

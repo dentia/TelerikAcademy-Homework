@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\CheckForCard\bin\Debug\CheckForCard.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\CheckForCard\bin\Debug\CheckForCard.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\CheckForCard\bin\Debug\CheckForCard.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\CheckForCard\obj\Debug\CheckForCard.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\CheckForCard\obj\Debug\CheckForCard.pdb

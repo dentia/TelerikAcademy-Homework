@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\ZeroSubset\bin\Debug\ZeroSubset.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\ZeroSubset\bin\Debug\ZeroSubset.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\ZeroSubset\bin\Debug\ZeroSubset.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\ZeroSubset\obj\Debug\ZeroSubset.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\ZeroSubset\obj\Debug\ZeroSubset.pdb
