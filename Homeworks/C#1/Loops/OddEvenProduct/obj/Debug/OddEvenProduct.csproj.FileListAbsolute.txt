@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\OddEvenProduct\bin\Debug\OddEvenProduct.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\OddEvenProduct\bin\Debug\OddEvenProduct.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\OddEvenProduct\bin\Debug\OddEvenProduct.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\OddEvenProduct\obj\Debug\OddEvenProduct.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\OddEvenProduct\obj\Debug\OddEvenProduct.pdb

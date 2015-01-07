@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\MinMaxSumAverage\bin\Debug\MinMaxSumAverage.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\MinMaxSumAverage\bin\Debug\MinMaxSumAverage.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\MinMaxSumAverage\bin\Debug\MinMaxSumAverage.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\MinMaxSumAverage\obj\Debug\MinMaxSumAverage.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\MinMaxSumAverage\obj\Debug\MinMaxSumAverage.pdb

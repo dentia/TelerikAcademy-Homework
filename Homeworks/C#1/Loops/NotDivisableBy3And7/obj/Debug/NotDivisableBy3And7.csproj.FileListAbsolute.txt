@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\NotDivisableBy3And7\bin\Debug\NotDivisableBy3And7.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\NotDivisableBy3And7\bin\Debug\NotDivisableBy3And7.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\NotDivisableBy3And7\bin\Debug\NotDivisableBy3And7.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\NotDivisableBy3And7\obj\Debug\NotDivisableBy3And7.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\NotDivisableBy3And7\obj\Debug\NotDivisableBy3And7.pdb

@@ -1,0 +1,6 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateSum\bin\Debug\CalculateSum.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateSum\obj\Debug\CalculateSum.csprojResolveAssemblyReference.cache
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateSum\bin\Debug\CalculateSum.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateSum\bin\Debug\CalculateSum.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateSum\obj\Debug\CalculateSum.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateSum\obj\Debug\CalculateSum.pdb
