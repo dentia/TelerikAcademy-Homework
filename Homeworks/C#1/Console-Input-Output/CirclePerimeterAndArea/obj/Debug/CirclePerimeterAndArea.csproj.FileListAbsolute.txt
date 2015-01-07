@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\CirclePerimeterAndArea\bin\Debug\CirclePerimeterAndArea.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\CirclePerimeterAndArea\bin\Debug\CirclePerimeterAndArea.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\CirclePerimeterAndArea\bin\Debug\CirclePerimeterAndArea.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\CirclePerimeterAndArea\obj\Debug\CirclePerimeterAndArea.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\CirclePerimeterAndArea\obj\Debug\CirclePerimeterAndArea.pdb

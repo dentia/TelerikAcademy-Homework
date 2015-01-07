@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfFiveNumbers\bin\Debug\SumOfFiveNumbers.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfFiveNumbers\bin\Debug\SumOfFiveNumbers.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfFiveNumbers\bin\Debug\SumOfFiveNumbers.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfFiveNumbers\obj\Debug\SumOfFiveNumbers.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfFiveNumbers\obj\Debug\SumOfFiveNumbers.pdb

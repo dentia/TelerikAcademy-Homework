@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersDividableByN\bin\Debug\NumbersDividableByN.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersDividableByN\bin\Debug\NumbersDividableByN.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersDividableByN\bin\Debug\NumbersDividableByN.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersDividableByN\obj\Debug\NumbersDividableByN.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersDividableByN\obj\Debug\NumbersDividableByN.pdb

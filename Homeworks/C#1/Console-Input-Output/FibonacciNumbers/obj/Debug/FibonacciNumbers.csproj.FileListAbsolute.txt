@@ -1,0 +1,6 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FibonacciNumbers\bin\Debug\FibonacciNumbers.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FibonacciNumbers\bin\Debug\FibonacciNumbers.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FibonacciNumbers\bin\Debug\FibonacciNumbers.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FibonacciNumbers\obj\Debug\FibonacciNumbers.csprojResolveAssemblyReference.cache
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FibonacciNumbers\obj\Debug\FibonacciNumbers.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FibonacciNumbers\obj\Debug\FibonacciNumbers.pdb

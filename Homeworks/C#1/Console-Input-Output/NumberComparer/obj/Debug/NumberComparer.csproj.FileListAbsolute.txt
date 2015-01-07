@@ -1,0 +1,5 @@
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumberComparer\bin\Debug\NumberComparer.exe.config
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumberComparer\bin\Debug\NumberComparer.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumberComparer\bin\Debug\NumberComparer.pdb
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumberComparer\obj\Debug\NumberComparer.exe
+c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumberComparer\obj\Debug\NumberComparer.pdb
