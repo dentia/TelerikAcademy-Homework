@@ -1,6 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloWorld\bin\Debug\HelloWorld.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloWorld\bin\Debug\HelloWorld.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloWorld\bin\Debug\HelloWorld.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloWorld\obj\Debug\HelloWorld.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloWorld\obj\Debug\HelloWorld.pdb

@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircle\bin\Debug\PointInCircle.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircle\bin\Debug\PointInCircle.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircle\bin\Debug\PointInCircle.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircle\obj\Debug\PointInCircle.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircle\obj\Debug\PointInCircle.pdb

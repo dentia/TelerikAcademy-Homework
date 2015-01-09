@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintASequence\bin\Debug\PrintASequence.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintASequence\bin\Debug\PrintASequence.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintASequence\bin\Debug\PrintASequence.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintASequence\obj\Debug\PrintASequence.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintASequence\obj\Debug\PrintASequence.pdb

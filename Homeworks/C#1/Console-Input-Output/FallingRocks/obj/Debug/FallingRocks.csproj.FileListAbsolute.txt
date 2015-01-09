@@ -1,6 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FallingRocks\bin\Debug\FallingRocks.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FallingRocks\bin\Debug\FallingRocks.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FallingRocks\bin\Debug\FallingRocks.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FallingRocks\obj\Debug\FallingRocks.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FallingRocks\obj\Debug\FallingRocks.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\FallingRocks\obj\Debug\FallingRocks.csprojResolveAssemblyReference.cache

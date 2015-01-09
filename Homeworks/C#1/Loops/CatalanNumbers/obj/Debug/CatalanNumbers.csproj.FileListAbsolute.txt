@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CatalanNumbers\bin\Debug\CatalanNumbers.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CatalanNumbers\bin\Debug\CatalanNumbers.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CatalanNumbers\bin\Debug\CatalanNumbers.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CatalanNumbers\obj\Debug\CatalanNumbers.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CatalanNumbers\obj\Debug\CatalanNumbers.pdb

@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BonusScore\bin\Debug\BonusScore.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BonusScore\bin\Debug\BonusScore.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BonusScore\bin\Debug\BonusScore.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BonusScore\obj\Debug\BonusScore.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BonusScore\obj\Debug\BonusScore.pdb

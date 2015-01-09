@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\ExchangeVariableValues\bin\Debug\ExchangeVariableValues.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\ExchangeVariableValues\bin\Debug\ExchangeVariableValues.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\ExchangeVariableValues\bin\Debug\ExchangeVariableValues.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\ExchangeVariableValues\obj\Debug\ExchangeVariableValues.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\ExchangeVariableValues\obj\Debug\ExchangeVariableValues.pdb

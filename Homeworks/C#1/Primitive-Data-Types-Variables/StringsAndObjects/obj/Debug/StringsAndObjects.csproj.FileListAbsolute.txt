@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\StringsAndObjects\bin\Debug\StringsAndObjects.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\StringsAndObjects\bin\Debug\StringsAndObjects.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\StringsAndObjects\bin\Debug\StringsAndObjects.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\StringsAndObjects\obj\Debug\StringsAndObjects.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\StringsAndObjects\obj\Debug\StringsAndObjects.pdb

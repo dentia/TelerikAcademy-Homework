@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\EmployeeData\bin\Debug\EmployeeData.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\EmployeeData\bin\Debug\EmployeeData.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\EmployeeData\bin\Debug\EmployeeData.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\EmployeeData\obj\Debug\EmployeeData.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\EmployeeData\obj\Debug\EmployeeData.pdb

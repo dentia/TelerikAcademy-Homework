@@ -1,6 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfThreeNumbers\bin\Debug\SumOfThreeNumbers.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.csprojResolveAssemblyReference.cache
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\SumOfThreeNumbers\obj\Debug\SumOfThreeNumbers.pdb

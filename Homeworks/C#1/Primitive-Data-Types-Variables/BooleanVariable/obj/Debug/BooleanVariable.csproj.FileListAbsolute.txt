@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BooleanVariable\bin\Debug\BooleanVariable.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BooleanVariable\bin\Debug\BooleanVariable.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BooleanVariable\bin\Debug\BooleanVariable.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BooleanVariable\obj\Debug\BooleanVariable.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\BooleanVariable\obj\Debug\BooleanVariable.pdb

@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersToN\bin\Debug\NumbersToN.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersToN\bin\Debug\NumbersToN.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersToN\bin\Debug\NumbersToN.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersToN\obj\Debug\NumbersToN.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Console-Input-Output\NumbersToN\obj\Debug\NumbersToN.pdb

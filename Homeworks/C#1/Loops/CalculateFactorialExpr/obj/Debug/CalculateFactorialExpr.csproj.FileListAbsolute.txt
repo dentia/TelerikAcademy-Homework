@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateFactorialExpr\bin\Debug\CalculateFactorialExpr.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateFactorialExpr\bin\Debug\CalculateFactorialExpr.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateFactorialExpr\bin\Debug\CalculateFactorialExpr.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateFactorialExpr\obj\Debug\CalculateFactorialExpr.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\CalculateFactorialExpr\obj\Debug\CalculateFactorialExpr.pdb

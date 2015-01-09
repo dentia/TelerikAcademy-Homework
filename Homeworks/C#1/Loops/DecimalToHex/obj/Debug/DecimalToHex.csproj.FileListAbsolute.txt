@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToHex\bin\Debug\DecimalToHex.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToHex\bin\Debug\DecimalToHex.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToHex\bin\Debug\DecimalToHex.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToHex\obj\Debug\DecimalToHex.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToHex\obj\Debug\DecimalToHex.pdb

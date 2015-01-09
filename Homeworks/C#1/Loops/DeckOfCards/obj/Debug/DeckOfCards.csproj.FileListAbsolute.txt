@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DeckOfCards\bin\Debug\DeckOfCards.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DeckOfCards\bin\Debug\DeckOfCards.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DeckOfCards\bin\Debug\DeckOfCards.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DeckOfCards\obj\Debug\DeckOfCards.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DeckOfCards\obj\Debug\DeckOfCards.pdb

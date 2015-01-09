@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\PrintASCIITable\bin\Debug\PrintASCIITable.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\PrintASCIITable\bin\Debug\PrintASCIITable.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\PrintASCIITable\bin\Debug\PrintASCIITable.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\PrintASCIITable\obj\Debug\PrintASCIITable.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\PrintASCIITable\obj\Debug\PrintASCIITable.pdb

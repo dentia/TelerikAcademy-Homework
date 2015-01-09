@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\NumberAsWords\bin\Debug\NumberAsWords.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\NumberAsWords\bin\Debug\NumberAsWords.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\NumberAsWords\bin\Debug\NumberAsWords.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\NumberAsWords\obj\Debug\NumberAsWords.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\NumberAsWords\obj\Debug\NumberAsWords.pdb

@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\BinaryToDecimal\bin\Debug\BinaryToDecimal.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\BinaryToDecimal\bin\Debug\BinaryToDecimal.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\BinaryToDecimal\bin\Debug\BinaryToDecimal.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\BinaryToDecimal\obj\Debug\BinaryToDecimal.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\BinaryToDecimal\obj\Debug\BinaryToDecimal.pdb

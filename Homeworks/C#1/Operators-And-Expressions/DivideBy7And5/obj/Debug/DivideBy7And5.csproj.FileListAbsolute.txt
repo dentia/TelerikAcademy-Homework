@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\DivideBy7And5\bin\Debug\DivideBy7And5.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\DivideBy7And5\bin\Debug\DivideBy7And5.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\DivideBy7And5\bin\Debug\DivideBy7And5.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\DivideBy7And5\obj\Debug\DivideBy7And5.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\DivideBy7And5\obj\Debug\DivideBy7And5.pdb

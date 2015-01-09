@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\MultiplicationSign\bin\Debug\MultiplicationSign.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\MultiplicationSign\bin\Debug\MultiplicationSign.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\MultiplicationSign\bin\Debug\MultiplicationSign.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\MultiplicationSign\obj\Debug\MultiplicationSign.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\MultiplicationSign\obj\Debug\MultiplicationSign.pdb

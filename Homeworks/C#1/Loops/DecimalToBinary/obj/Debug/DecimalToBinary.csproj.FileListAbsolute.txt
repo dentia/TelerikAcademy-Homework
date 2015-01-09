@@ -1,6 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToBinary\bin\Debug\DecimalToBinary.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToBinary\bin\Debug\DecimalToBinary.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToBinary\bin\Debug\DecimalToBinary.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToBinary\obj\Debug\DecimalToBinary.csprojResolveAssemblyReference.cache
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToBinary\obj\Debug\DecimalToBinary.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DecimalToBinary\obj\Debug\DecimalToBinary.pdb

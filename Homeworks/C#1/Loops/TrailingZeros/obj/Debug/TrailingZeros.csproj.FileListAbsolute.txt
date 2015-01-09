@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\TrailingZeros\bin\Debug\TrailingZeros.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\TrailingZeros\bin\Debug\TrailingZeros.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\TrailingZeros\bin\Debug\TrailingZeros.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\TrailingZeros\obj\Debug\TrailingZeros.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\TrailingZeros\obj\Debug\TrailingZeros.pdb

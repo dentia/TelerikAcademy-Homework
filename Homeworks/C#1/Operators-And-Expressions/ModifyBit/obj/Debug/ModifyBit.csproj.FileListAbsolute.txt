@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ModifyBit\bin\Debug\ModifyBit.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ModifyBit\bin\Debug\ModifyBit.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ModifyBit\bin\Debug\ModifyBit.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ModifyBit\obj\Debug\ModifyBit.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\ModifyBit\obj\Debug\ModifyBit.pdb

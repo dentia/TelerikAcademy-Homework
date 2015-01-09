@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\CheckBit\bin\Debug\CheckBit.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\CheckBit\bin\Debug\CheckBit.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\CheckBit\bin\Debug\CheckBit.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\CheckBit\obj\Debug\CheckBit.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\CheckBit\obj\Debug\CheckBit.pdb

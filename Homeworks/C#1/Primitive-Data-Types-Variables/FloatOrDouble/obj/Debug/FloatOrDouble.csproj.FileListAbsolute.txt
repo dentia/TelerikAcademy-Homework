@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\FloatOrDouble\bin\Debug\FloatOrDouble.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\FloatOrDouble\bin\Debug\FloatOrDouble.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\FloatOrDouble\bin\Debug\FloatOrDouble.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\FloatOrDouble\obj\Debug\FloatOrDouble.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\FloatOrDouble\obj\Debug\FloatOrDouble.pdb

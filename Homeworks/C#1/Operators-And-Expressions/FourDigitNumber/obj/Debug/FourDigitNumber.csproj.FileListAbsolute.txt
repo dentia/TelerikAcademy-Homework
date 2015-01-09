@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.pdb

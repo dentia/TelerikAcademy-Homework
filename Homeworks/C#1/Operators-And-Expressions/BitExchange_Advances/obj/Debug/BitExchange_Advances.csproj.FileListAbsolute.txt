@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitExchange_Advances\bin\Debug\BitExchange_Advances.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitExchange_Advances\bin\Debug\BitExchange_Advances.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitExchange_Advances\bin\Debug\BitExchange_Advances.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitExchange_Advances\obj\Debug\BitExchange_Advances.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\BitExchange_Advances\obj\Debug\BitExchange_Advances.pdb

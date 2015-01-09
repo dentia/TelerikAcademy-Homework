@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\CompareFloats\bin\Debug\CompareFloats.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\CompareFloats\bin\Debug\CompareFloats.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\CompareFloats\bin\Debug\CompareFloats.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\CompareFloats\obj\Debug\CompareFloats.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Primitive-Data-Types-Variables\CompareFloats\obj\Debug\CompareFloats.pdb

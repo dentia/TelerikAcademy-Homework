@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircleOutRectangle\bin\Debug\PointInCircleOutRectangle.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircleOutRectangle\bin\Debug\PointInCircleOutRectangle.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircleOutRectangle\bin\Debug\PointInCircleOutRectangle.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircleOutRectangle\obj\Debug\PointInCircleOutRectangle.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Operators-And-Expressions\PointInCircleOutRectangle\obj\Debug\PointInCircleOutRectangle.pdb

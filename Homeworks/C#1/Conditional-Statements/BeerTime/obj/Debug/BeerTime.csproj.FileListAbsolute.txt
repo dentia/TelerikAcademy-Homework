@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BeerTime\bin\Debug\BeerTime.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BeerTime\bin\Debug\BeerTime.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BeerTime\bin\Debug\BeerTime.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BeerTime\obj\Debug\BeerTime.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BeerTime\obj\Debug\BeerTime.pdb

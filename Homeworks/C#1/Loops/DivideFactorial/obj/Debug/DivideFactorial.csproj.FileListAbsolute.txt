@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DivideFactorial\bin\Debug\DivideFactorial.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DivideFactorial\bin\Debug\DivideFactorial.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DivideFactorial\bin\Debug\DivideFactorial.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DivideFactorial\obj\Debug\DivideFactorial.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\DivideFactorial\obj\Debug\DivideFactorial.pdb

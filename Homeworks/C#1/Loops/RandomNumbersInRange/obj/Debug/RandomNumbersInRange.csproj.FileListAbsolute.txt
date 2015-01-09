@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\RandomNumbersInRange\bin\Debug\RandomNumbersInRange.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\RandomNumbersInRange\bin\Debug\RandomNumbersInRange.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\RandomNumbersInRange\bin\Debug\RandomNumbersInRange.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\RandomNumbersInRange\obj\Debug\RandomNumbersInRange.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Loops\RandomNumbersInRange\obj\Debug\RandomNumbersInRange.pdb

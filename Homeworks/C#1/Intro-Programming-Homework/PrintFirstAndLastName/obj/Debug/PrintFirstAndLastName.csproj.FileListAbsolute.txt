@@ -1,1 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintFirstAndLastName\bin\Debug\PrintFirstAndLastName.exe.config

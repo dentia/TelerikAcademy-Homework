@@ -1,5 +1,0 @@
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BiggestOfFiveNumbers\bin\Debug\BiggestOfFiveNumbers.exe.config
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BiggestOfFiveNumbers\bin\Debug\BiggestOfFiveNumbers.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BiggestOfFiveNumbers\bin\Debug\BiggestOfFiveNumbers.pdb
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BiggestOfFiveNumbers\obj\Debug\BiggestOfFiveNumbers.exe
-c:\users\dentia\documents\visual studio 2013\Projects\Conditional-Statements\BiggestOfFiveNumbers\obj\Debug\BiggestOfFiveNumbers.pdb
