@@ -50,15 +50,20 @@ namespace NumberAsWords
         private static string Hundreds(int number)
         {
             string hundred = DigitAsWord((number / 100) % 10) + " hundred";
+
             if (((number / 10) % 10) != 0 || (number % 10) != 0)
             {
                 hundred += " and ";
+                if ((number / 10) % 10 > 0)
+                {
+                    hundred += Tens(number - (100 * ((number / 100) % 10)));
+                }
+                else
+                {
+                    hundred += DigitAsWord(number % 10);
+                }
             }
-
-            if (number / 10 > 9)
-            {
-                hundred += Tens(number);
-            }
+            
             return hundred;
         }
 

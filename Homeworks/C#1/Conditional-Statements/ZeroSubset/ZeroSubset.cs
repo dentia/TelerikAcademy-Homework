@@ -10,7 +10,7 @@ namespace ZeroSubset
     {
         static void Main()
         {
-            Console.WriteLine("Enter nubers separated by space: ");
+            Console.WriteLine("Enter numbers separated by space: ");
             int[] numbers = Console.ReadLine()
                 .Split(new char[] { ' ', '\t', ',' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(x => int.Parse(x))
