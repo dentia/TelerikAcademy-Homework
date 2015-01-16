@@ -29,9 +29,9 @@ namespace PointInCircleOutRectangle
         {
             //R(top=1, left=-1, width=6, height=2)
 
-            double x1 = -1, x2 = 5, y1 = 1, y2 = 3;
+            double left = -1, right = 5, top = 1, bottom = -1;
 
-            return !(X >= x1 && X <= x2 && Y >= y1 && Y <= y2);
+            return !(Y <= top && Y >= bottom && X >= left && xY <= right);
         }
     }
 }
