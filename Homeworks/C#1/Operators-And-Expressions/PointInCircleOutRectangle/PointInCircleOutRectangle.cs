@@ -1,5 +1,5 @@
-﻿//Write an expression that checks for given point (x, y) 
-//if it is within the circle K({1, 1}, 1.5) and out of the rectangle R(top=1, left=-1, width=6, height=2).
+﻿//Write an expression that checks for given point (x, y) if it is within the 
+//circle K({1, 1}, 1.5) and out of the rectangle R(top=1, left=-1, width=6, height=2).
 
 namespace PointInCircleOutRectangle
 {
@@ -7,7 +7,7 @@ namespace PointInCircleOutRectangle
     using System.Linq;
     class PointInCircleOutRectangle
     {
-        const double radius = 5;
+        const double radius = 1.5;
         const double xY = 1;
         static void Main(string[] args)
         {
@@ -29,7 +29,7 @@ namespace PointInCircleOutRectangle
         {
             //R(top=1, left=-1, width=6, height=2)
 
-            double x1 = -1, x2 = 5, y1 = 1, y2 = 5;
+            double x1 = -1, x2 = 5, y1 = 1, y2 = 3;
 
             return !(X >= x1 && X <= x2 && Y >= y1 && Y <= y2);
         }
