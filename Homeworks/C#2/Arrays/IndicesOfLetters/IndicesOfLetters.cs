@@ -59,39 +59,5 @@ namespace IndicesOfLetters
 
             return result.ToString();
         }
-
-        //private static string GetIndices(string word, Method method)
-        //{
-        //    int[] indices = new int[word.Length];
-        //    StringBuilder result;
-
-        //    switch (method)
-        //    {
-        //        case Method.FromArray:
-        //            var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
-        //            for (int index = 0; index < word.Length; index++)
-        //                indices[index] = Array.IndexOf(alphabet, word[index]);
-        //            break;
-        //        case Method.UsingASCII:
-        //            for (int index = 0; index < indices.Length; index++)
-        //                indices[index] = word[index] - 'A';
-        //            break;
-        //        default:
-        //            return "No such method!";
-        //    }
-
-        //    result = FormatOutput(indices);
-        //    return result.ToString();
-        //}
-
-        //private static StringBuilder FormatOutput(int[] indices)
-        //{
-        //    StringBuilder result = new StringBuilder();
-
-        //    for (int index = 0; index < indices.Length; index++)
-        //        result.Append(string.Format("[{0}/{1}]"), indices[index] + 'A', indices[index]);
-
-        //    return result;
-        //}
     }
 }
