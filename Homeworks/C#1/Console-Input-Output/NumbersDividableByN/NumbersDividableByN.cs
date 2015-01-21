@@ -14,19 +14,14 @@ namespace NumbersDividableByN
             Console.Write("Enter the second number: ");
             int end = int.Parse(Console.ReadLine());
 
-            if (start > end)
-            {
-                start ^= end;
-                end ^= start;
-                start ^= end;
-            }
-
             int count = 0;
-
-            for (int number = start; number <= end; number++)
-                if (number % 5 == 0)
-                    ++count;
-
+            if (start % 5 == 0 || end % 5 == 0)
+                ++count;
+            else if (Math.Abs(end - start) % 5 > end % 5 ||
+                Math.Abs(end - start) % 5 > start % 5)
+                ++count;
+                
+            count += Math.Abs(end - start) / 5;
             Console.WriteLine(count);
         }
     }
