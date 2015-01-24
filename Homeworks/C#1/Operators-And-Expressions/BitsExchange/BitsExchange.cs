@@ -7,7 +7,8 @@ namespace BitsExchange
         static void Main(string[] args)
         {
             Console.Write("Enter a number: ");
-            int number = int.Parse(Console.ReadLine());
+            uint number = uint.Parse(Console.ReadLine());
+            Console.WriteLine(Convert.ToString(number, 2).PadLeft(32, '0'));
 
             for (int i = 3, j = 24; i < 6; i++, j++)
             {
@@ -16,13 +17,17 @@ namespace BitsExchange
                     number = ChangeBits(number, i, j);
                 }
             }
-            Console.WriteLine("Result: " + number);
+
+            Console.WriteLine(Convert.ToString(number, 2).PadLeft(32, '0'));
+            Console.WriteLine(number);
+
+            //Main(new string[] { });
         }
 
-        private static int ChangeBits(int number, int firstposition, int secondPosition)
+        private static uint ChangeBits(uint number, int firstposition, int secondPosition)
         {
-            number ^= (1 << firstposition);
-            return number ^ (1 << secondPosition);
+            number ^= (1u << firstposition);
+            return number ^ (1u << secondPosition);
         }
     }
 }

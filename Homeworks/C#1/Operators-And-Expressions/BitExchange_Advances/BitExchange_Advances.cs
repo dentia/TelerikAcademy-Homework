@@ -24,19 +24,37 @@ namespace BitExchange_Advances
                 p = temp;
             }
 
-            if (p + k >= q || q + k > 32)
+            if (InputIsCorrect(p, q, k))
             {
-                Console.WriteLine("The operation cannot be done.");
-                return;
+
+                uint mask = ((number >> p) ^ (number >> q)) & ((1u << k) - 1);
+                uint result = number ^ ((mask << p) | (mask << q));
+
+                Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
+                Console.WriteLine(result);
             }
 
-            uint mask = ((number >> p) ^ (number >> q)) & ((1u << k) - 1);
-            uint result = number ^ ((mask << p) | (mask << q));
+            //Main(new string[] { });
+        }
 
-            Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
-            Console.WriteLine(result);
-
-            Main(new string[] { });
+        private static bool InputIsCorrect(int p, int q, int k)
+        {
+            if ((p < 0 || p > 32) || (q < 0 || q > 32))
+            {
+                Console.WriteLine("out of range");
+                return false;
+            }
+            if (p + k >= q)
+            {
+                Console.WriteLine("overlapping");
+                return false;
+            }
+            if (q + k > 32)
+            {
+                Console.WriteLine("out of range");
+                return false;
+            }
+            return true;
         }
     }
 }
