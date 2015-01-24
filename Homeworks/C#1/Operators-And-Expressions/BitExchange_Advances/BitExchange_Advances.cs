@@ -8,28 +8,35 @@ namespace BitExchange_Advances
         static void Main(string[] args)
         {
             Console.Write("Enter a number: ");
-            long number = long.Parse(Console.ReadLine());
+            uint number = uint.Parse(Console.ReadLine());
             Console.Write("Enter position P: ");
             int p = int.Parse(Console.ReadLine());
             Console.Write("Enter position Q: ");
             int q = int.Parse(Console.ReadLine());
             Console.Write("Enter step K: ");
             int k = int.Parse(Console.ReadLine());
+            Console.WriteLine(Convert.ToString(number, 2).PadLeft(32, '0'));
 
-            for (int i = p, j = q, l = k; (i <= 32 && j <= 32) && l > 0; i++, j++, l--)
+            if (p > q)
             {
-                if (((number >> i) & 1) != ((number >> j) & 1))
-                {
-                    number = changeBits(number, i, j);
-                }
+                int temp = q;
+                q = p;
+                p = temp;
             }
-            Console.WriteLine("Result: " + number);
-        }
 
-        private static long changeBits(long number, int firstposition, int secondPosition)
-        {
-            number ^= (1 << firstposition);
-            return number ^ (1 << secondPosition);
+            if (p + k >= q || q + k > 32)
+            {
+                Console.WriteLine("The operation cannot be done.");
+                return;
+            }
+
+            uint mask = ((number >> p) ^ (number >> q)) & ((1u << k) - 1);
+            uint result = number ^ ((mask << p) | (mask << q));
+
+            Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
+            Console.WriteLine(result);
+
+            Main(new string[] { });
         }
     }
 }
