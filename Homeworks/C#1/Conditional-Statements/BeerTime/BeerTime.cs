@@ -16,15 +16,19 @@ namespace BeerTime
         static DateTime morning = DateTime.ParseExact("03:00 AM", "hh:mm tt", provider);
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter time in format hh:mm tt");
-            DateTime time = DateTime.ParseExact(Console.ReadLine(), "h:mm tt", provider);
+            try
+            {
+                Console.WriteLine("Enter time in format hh:mm tt");
+                DateTime time = DateTime.ParseExact(Console.ReadLine(), "h:mm tt", provider);
 
-            Console.WriteLine(IsBeerTime(time) ? "beer time" : "non-beer time");
+                Console.WriteLine(IsBeerTime(time) ? "beer time" : "non-beer time");
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("invalid time");
+            }
 
-            //while (true)
-            //{
-            //    Main(new string[] { });
-            //}
+            //Main(new string[] { });
         }
 
         private static bool IsBeerTime(DateTime time)
