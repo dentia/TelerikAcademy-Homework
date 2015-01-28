@@ -20,24 +20,19 @@ namespace BeerTime
             {
                 Console.WriteLine("Enter time in format hh:mm tt");
                 DateTime time = DateTime.ParseExact(Console.ReadLine(), "h:mm tt", provider);
-
                 Console.WriteLine(IsBeerTime(time) ? "beer time" : "non-beer time");
             }
-            catch (FormatException e)
+            catch (FormatException)
             {
                 Console.WriteLine("invalid time");
             }
-
             //Main(new string[] { });
         }
-
         private static bool IsBeerTime(DateTime time)
         {
             bool afterEvening = time.TimeOfDay.CompareTo(evening.TimeOfDay) >= 0;
             bool beforeMorning = time.TimeOfDay.CompareTo(morning.TimeOfDay) < 0;
-
             return afterEvening || beforeMorning;
-
         }
     }
 }
