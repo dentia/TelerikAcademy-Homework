@@ -15,14 +15,14 @@ namespace WordDictionary
             FillDictionary();
 
             Console.Write("Enter a C# keyword: ");
-            string keyword = Console.ReadLine().Trim();
+            string keyword = Console.ReadLine().ToLower().Trim();
 
             PrintDescription(keyword);
         }
 
         private static void PrintDescription(string keyword)
         {
-            if (!keywords.ContainsKey(keyword.ToLower()))
+            if (!keywords.ContainsKey(keyword))
             {
                 Console.WriteLine("No matches found!");
                 return;
