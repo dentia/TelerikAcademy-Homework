@@ -13,6 +13,7 @@ namespace BinarySearch
             int[] numbers = Console.ReadLine()
                 .Split(new char[] { ' ', '\t', ',' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(x => int.Parse(x))
+                .OrderBy(x => x)
                 .ToArray();
 
             Console.Write("Enter a number to search for: ");
