@@ -2,7 +2,7 @@ test
 new text;
 test()
 {
-
+new text;
 
 }
 
