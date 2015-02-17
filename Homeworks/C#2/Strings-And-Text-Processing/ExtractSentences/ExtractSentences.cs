@@ -6,6 +6,7 @@ namespace ExtractSentences
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Text.RegularExpressions;
     class ExtractSentences
     {
         static void Main(string[] args)
@@ -19,7 +20,7 @@ in
             string text = Console.ReadLine();
             Console.Write("Enter a word to search for: ");
             string key = Console.ReadLine();
-
+            
             string[] matches = GetMatches(text, key);
             if (matches.Length == 0)
             {
@@ -28,23 +29,29 @@ in
             }
             else
             {
-                Console.WriteLine(Environment.NewLine +
-                    String.Join(" ", matches));
+                foreach (var sentence in matches)
+                {
+                    Console.WriteLine("- " + sentence);
+                }
             }
         }
 
         private static string[] GetMatches(string text, string key)
         {
+            char[] separators = { '.', '!', '?', ';' };
             string[] separateSentences = text
-                .Split(new char[] { '.' }, StringSplitOptions.RemoveEmptyEntries);
+                .Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> matches = new List<string>();
 
             foreach (var sentence in separateSentences)
             {
-                if (sentence.Contains(String.Format(" {0} ", key)))
+                if (Regex
+                    .IsMatch(sentence.ToLower(),
+                            String.Format("{0}{1}{2}", "(^|[.;,:!? -])", key.ToLower(), "([.;,:!? -]|$)"),
+                            RegexOptions.IgnoreCase))
                 {
-                    matches.Add(sentence.Trim() + '.');
+                    matches.Add(sentence.Trim());
                 }
             }
 
