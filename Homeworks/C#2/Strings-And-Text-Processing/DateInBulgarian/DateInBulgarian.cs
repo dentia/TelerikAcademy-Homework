@@ -19,7 +19,7 @@ namespace DateInBulgarian
             //17.2.2015 15:23:23
             Console.Write("Enter the date (dd.MM.yyyy HH:mm:ss): ");
             DateTime date = DateTime.ParseExact(Console.ReadLine(), format, provider);
-            
+            date = date.AddMinutes(390);
             Console.WriteLine(date.ToString("dd.MM.yyyy HH:mm:ss dddd"), provider);
         }
     }
