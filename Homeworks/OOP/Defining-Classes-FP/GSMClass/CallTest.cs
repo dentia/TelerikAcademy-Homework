@@ -54,6 +54,7 @@ namespace GSMClass
                 Console.WriteLine(call);
             }
             Console.WriteLine(new String('-', 20));
+            Console.WriteLine("{0:C}", this.phone.GetTotalCallPrice(0.37m));
         }
     }
 }
