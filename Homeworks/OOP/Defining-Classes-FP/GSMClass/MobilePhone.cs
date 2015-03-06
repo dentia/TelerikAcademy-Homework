@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace GSMClass
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
     class MobilePhone
     {
         private static readonly MobilePhone iPhone6pl = new MobilePhone(
