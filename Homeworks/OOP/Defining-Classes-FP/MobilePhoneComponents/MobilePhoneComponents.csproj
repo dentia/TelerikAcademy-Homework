@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3F106D0-C72B-4779-AA7F-CEE3C70580F4}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{9A641EB4-725E-4335-B5DD-76593AB3E629}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MobilePhoneComponents</RootNamespace>
-    <AssemblyName>GSMClass</AssemblyName>
+    <AssemblyName>MobilePhoneComponents</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,23 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CallTest.cs" />
-    <Compile Include="GSMClass.cs" />
-    <Compile Include="GSMTest.cs" />
+    <Compile Include="Battery.cs" />
+    <Compile Include="Call.cs" />
+    <Compile Include="ContactInformation.cs" />
+    <Compile Include="Display.cs" />
+    <Compile Include="MobilePhone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MobilePhoneComponents\MobilePhoneComponents.csproj">
-      <Project>{9a641eb4-725e-4335-b5dd-76593ab3e629}</Project>
-      <Name>MobilePhoneComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Tests\Tests.csproj">
-      <Project>{f183879e-f8ee-4a79-bb6a-2a4ec21f1424}</Project>
-      <Name>Tests</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

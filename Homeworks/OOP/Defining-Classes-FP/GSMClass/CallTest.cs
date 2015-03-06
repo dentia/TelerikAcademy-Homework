@@ -7,7 +7,7 @@
 //and calculate the total price again.
 //Finally clear the call history and print it.
 
-namespace GSMClass
+namespace MobilePhoneComponents
 {
     using System;
     using System.Collections.Generic;

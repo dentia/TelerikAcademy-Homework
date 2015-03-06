@@ -3,7 +3,7 @@
 //Display the information about the GSMs in the array.
 //Display the information about the static property IPhone4S.
 
-namespace GSMClass
+namespace MobilePhoneComponents
 {
     using System;
     using System.Collections.Generic;
