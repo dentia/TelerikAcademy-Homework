@@ -8,6 +8,7 @@ namespace MobilePhoneComponents
         static void Main(string[] args)
         {
             MobilePhoneTests mpt = new MobilePhoneTests();
+
             Console.WriteLine("CREATING PHONE: ");
             Console.WriteLine(mpt.TestPhoneCreation());
             Console.WriteLine("OPERATIONS WITH CALLS: ");
