@@ -161,7 +161,7 @@ namespace MobilePhoneComponents
         {
             get
             {
-                return this.calls;
+                return new List<Call>(this.calls);
             }
         }
 
