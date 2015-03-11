@@ -17,7 +17,7 @@ namespace School
 
         public List<Discipline> GetDisciplines()
         {
-            return this.disciplines;
+            return new List<Discipline>(this.disciplines);
         }
 
         public override string ToString()

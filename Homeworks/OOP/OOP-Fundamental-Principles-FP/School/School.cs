@@ -30,7 +30,7 @@ namespace School
 
         public List<Course> GetCourses()
         {
-            return this.courses;
+            return new List<Course>(this.courses);
         }
 
         public override string ToString()

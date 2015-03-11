@@ -46,7 +46,7 @@ namespace School
 
         public List<Teacher> GetTeachers()
         {
-            return this.teachers;
+            return new List<Teacher>(this.teachers);
         }
 
         public override string ToString()
