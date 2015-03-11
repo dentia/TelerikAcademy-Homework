@@ -127,7 +127,7 @@ namespace Student
         {
             get
             {
-                return this.marks;
+                return new List<double>(this.marks);
             }
         }
         #endregion
