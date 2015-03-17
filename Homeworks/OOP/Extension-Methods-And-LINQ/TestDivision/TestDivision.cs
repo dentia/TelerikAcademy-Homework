@@ -7,17 +7,17 @@ namespace TestDivision
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    class TestDivision
+    static class TestDivision
     {
         static void Main(string[] args)
         {
             int[] numbers = new[] { 21, 42, 3, 7, 1, 2, 4, 6, 7, 9, 11, 13, 23 };
-            Console.WriteLine(String.Join(", ", NumbersDivisableBy_Lambda(numbers, 3, 7)));
-            Console.WriteLine(String.Join(", ", NumbersDivisableBy_Linq(numbers, 3, 7)));
+            Console.WriteLine(String.Join(", ", numbers.NumbersDivisableBy_Lambda(3, 7)));
+            Console.WriteLine(String.Join(", ", numbers.NumbersDivisableBy_Linq(3, 7)));
         }
 
         private static IEnumerable<int> NumbersDivisableBy_Linq(
-            IEnumerable<int> numbers, int divider1, int divider2)
+            this IEnumerable<int> numbers, int divider1, int divider2)
         {
             return from num in numbers
                    where (num % divider1 == 0 || num % divider2 == 0)
@@ -26,7 +26,7 @@ namespace TestDivision
         }
 
         private static IEnumerable<int> NumbersDivisableBy_Lambda(
-            IEnumerable<int> numbers, int divider1, int divider2)
+            this IEnumerable<int> numbers, int divider1, int divider2)
         {
             return numbers
                 .Where(x => x % divider1 == 0 || x % divider2 == 0);
