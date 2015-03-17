@@ -122,13 +122,13 @@ namespace ClassMatrix
             }
 
             Matrix<T> result = new Matrix<T>(a.Rows, b.Cols);
-            int temp;
+            T temp;
 
             for (int matrixRow = 0; matrixRow < result.Rows; matrixRow++)
             {
                 for (int matrixCol = 0; matrixCol < result.Cols; matrixCol++)
                 {
-                    temp = 0;
+                    temp = (dynamic)0;
                     for (int index = 0; index < result.Cols; index++)
                     {
                         temp += (dynamic)a[matrixRow, index] * b[index, matrixCol];
