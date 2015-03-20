@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Course.cs" />
-    <Compile Include="Discipline.cs" />
+    <Compile Include="Disciple.cs" />
     <Compile Include="ICommentable.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -9,7 +9,7 @@ namespace School
         static void Main()
         {
             School school = new School("NPMG");
-            List<Discipline> disciplines = LoadDisciplines();
+            List<Disciple> disciplines = LoadDisciplines();
             Teacher dimo = new Teacher("Dimo Padalski", disciplines);
 
             Course geography = new Course("Geography");
@@ -49,15 +49,15 @@ namespace School
             return result.ToString();
         }
 
-        private static List<Discipline> LoadDisciplines()
+        private static List<Disciple> LoadDisciplines()
         {
-            List<Discipline> disciplines = new List<Discipline>();
+            List<Disciple> disciplines = new List<Disciple>();
 
-            disciplines.Add(new Discipline("Nikolay Kostov", 10000, 12, 12));
-            disciplines.Add(new Discipline("Ivaylo Kenov", 10001, 9, 12));
-            disciplines.Add(new Discipline("Doncho Minkov", 10002, 12, 9));
-            disciplines.Add(new Discipline("Evlogi Hristov", 10003, 11, 11));
-            disciplines.Add(new Discipline("Zdravko Georgiev", 10004, 10, 10));
+            disciplines.Add(new Disciple("Nikolay Kostov", 10000, 12, 12));
+            disciplines.Add(new Disciple("Ivaylo Kenov", 10001, 9, 12));
+            disciplines.Add(new Disciple("Doncho Minkov", 10002, 12, 9));
+            disciplines.Add(new Disciple("Evlogi Hristov", 10003, 11, 11));
+            disciplines.Add(new Disciple("Zdravko Georgiev", 10004, 10, 10));
 
             return disciplines;
         }

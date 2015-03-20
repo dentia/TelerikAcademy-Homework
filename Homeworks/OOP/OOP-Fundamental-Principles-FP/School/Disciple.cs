@@ -5,7 +5,7 @@ using System.Text;
 
 namespace School
 {
-    public class Discipline : Person, ICommentable
+    public class Disciple : Person, ICommentable
     {
         private int exercises;
         private int lectures;
@@ -29,7 +29,7 @@ namespace School
             set { uniqueNumber = value; }
         }
 
-        public Discipline(string name, uint uniqueNumber, int lecures, int exercises)
+        public Disciple(string name, uint uniqueNumber, int lecures, int exercises)
             : base(name)
         {
             this.UniqueNumber = uniqueNumber;

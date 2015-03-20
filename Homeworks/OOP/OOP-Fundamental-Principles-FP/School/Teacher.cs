@@ -7,17 +7,17 @@ namespace School
 {
     public class Teacher : Person, ICommentable
     {
-        private List<Discipline> disciplines;
+        private List<Disciple> disciplines;
 
-        public Teacher(string name, IEnumerable<Discipline> disciplines)
+        public Teacher(string name, IEnumerable<Disciple> disciplines)
             : base(name)
         {
             this.disciplines = disciplines.ToList();
         }
 
-        public List<Discipline> GetDisciplines()
+        public List<Disciple> GetDisciplines()
         {
-            return new List<Discipline>(this.disciplines);
+            return new List<Disciple>(this.disciplines);
         }
 
         public override string ToString()
