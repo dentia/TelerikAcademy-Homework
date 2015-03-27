@@ -45,7 +45,7 @@ namespace BitArray
 
                 if (((int)(this.Number >> pos) & 1) != value)
                 {
-                    this.Number ^= (1u << pos);
+                    this.Number ^= (1ul << pos);
                 }
             }
         }
