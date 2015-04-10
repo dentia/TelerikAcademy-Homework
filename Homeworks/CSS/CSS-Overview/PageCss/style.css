@@ -1,0 +1,39 @@
+﻿body {
+    background-color: #A9A9A9;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FAFAD2;
+}
+
+nav > ul > li > a, nav > ul > li {
+    padding: 1px;
+    margin: 4px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+nav > ul > li:last-child {
+    text-decoration: underline;
+}
+
+article > footer {
+    font-size: 12px;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+.current {
+    background-color: #D3D3D3;
+}

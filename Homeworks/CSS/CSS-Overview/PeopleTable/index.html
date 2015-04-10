@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+<table id="mainTable">
+    <thead>
+    <tr>
+        <th>Contact name</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Is Promoted</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Maria Anders</td>
+        <td>Berlin</td>
+        <td>
+            <table class="f32 countryTable">
+                <tr>
+                    <td class="flag de"></td>
+                    <td>Germany</td>
+                </tr>
+            </table>
+        </td>
+        <td><input type="checkbox" disabled="disabled"/></td>
+    </tr>
+
+    <tr>
+        <td>Ana Trujillo</td>
+        <td>Mexico D.F.</td>
+        <td>
+            <table class="f32 countryTable">
+                <tr>
+                    <td class="flag mx"></td>
+                    <td>Mexico</td>
+                </tr>
+            </table>
+        </td>
+        <td><input type="checkbox" disabled="disabled"/></td>
+    </tr>
+
+    <tr>
+        <td>Thomas Hardy</td>
+        <td>London</td>
+        <td>
+            <table class="f32 countryTable">
+                <tr>
+                    <td class="flag gb"></td>
+                    <td>UK</td>
+                </tr>
+            </table>
+        </td>
+        <td><input type="checkbox" checked="checked" disabled="disabled"/></td>
+    </tr>
+
+    <tr>
+        <td>Nikolay Kostov</td>
+        <td>Sofia</td>
+        <td>
+            <table class="f32 countryTable">
+                <tr>
+                    <td class="flag bg"></td>
+                    <td>Bulgaria</td>
+                </tr>
+            </table>
+        </td>
+        <td><input type="checkbox" checked="checked" disabled="disabled"/></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
