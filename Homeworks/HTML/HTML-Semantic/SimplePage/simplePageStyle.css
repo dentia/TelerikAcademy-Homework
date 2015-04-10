@@ -1,0 +1,9 @@
+﻿ul {
+    list-style-type: disc;
+}
+
+table td, table tr, table th {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}

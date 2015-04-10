@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="productsStyle.css"/>
+</head>
+<body>
+<table>
+    <colgroup><col style="width: 50px"/><col/><col /><col /><col /><col style="width: 40px"/></colgroup>
+    <thead>
+    <tr>
+        <th>ProductID</th>
+        <th>Product Name</th>
+        <th>Unit price</th>
+        <th>Quantity per unit</th>
+        <th>Units in stock</th>
+        <th>Discontinued</th>
+    </tr>
+    </thead>
+
+    <tfoot>
+    <tr>
+        <td colspan="6">
+            <button id="firstPage"></button>
+            <button id="prevPage"></button>
+            <a href="#" class="pageLink" id="selectedPage">1</a>
+            <a href="#" class="pageLink">2</a>
+            <a href="#" class="pageLink">3</a>
+            <a href="#" class="pageLink">4</a>
+            <a href="#" class="pageLink">5</a>
+            <a href="#" class="pageLink">...</a>
+            <button id="nextPage"></button>
+            <button id="lastPage"></button>
+            <span id="results">335104 items in 33511 pages</span>
+        </td>
+    </tr>
+    </tfoot>
+
+    <tbody>
+    <tr>
+        <td><input type="text" id="idInput"/></td>
+        <td><input type="text"/></td>
+        <td><input type="text"/></td>
+        <td><input type="text"/></td>
+        <td><input type="text"/></td>
+        <td><input type="checkbox" disabled="disabled"/></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Tea</td>
+        <td>$18.30</td>
+        <td>10 boxes x 20 bags</td>
+        <td>39</td>
+        <td><input type="checkbox" disabled="disabled"/></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Chang</td>
+        <td>$25.00</td>
+        <td>24 - 12 oz bottles</td>
+        <td>17</td>
+        <td><input type="checkbox" checked="checked" disabled="disabled"/></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Apples</td>
+        <td>$5.00</td>
+        <td>300gr</td>
+        <td>10</td>
+        <td><input type="checkbox" checked="checked" disabled="disabled"/></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Oranges</td>
+        <td>$7.00</td>
+        <td>400gr</td>
+        <td>8</td>
+        <td><input type="checkbox" checked="checked" disabled="disabled"/></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

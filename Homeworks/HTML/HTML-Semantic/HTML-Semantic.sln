@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePage", "SimplePage\SimplePage.csproj", "{46F1B617-45F8-44C8-AD22-EACE577AD42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedIn", "LinkedIn\LinkedIn.csproj", "{78C1C00E-C7D0-4665-82FD-DB0379E930B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorHTML", "RefactorHTML\RefactorHTML.csproj", "{9DF9B649-5665-41E4-BDFE-A6B44D42B035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F1B617-45F8-44C8-AD22-EACE577AD42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F1B617-45F8-44C8-AD22-EACE577AD42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F1B617-45F8-44C8-AD22-EACE577AD42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F1B617-45F8-44C8-AD22-EACE577AD42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C1C00E-C7D0-4665-82FD-DB0379E930B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C1C00E-C7D0-4665-82FD-DB0379E930B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C1C00E-C7D0-4665-82FD-DB0379E930B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C1C00E-C7D0-4665-82FD-DB0379E930B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF9B649-5665-41E4-BDFE-A6B44D42B035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF9B649-5665-41E4-BDFE-A6B44D42B035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF9B649-5665-41E4-BDFE-A6B44D42B035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF9B649-5665-41E4-BDFE-A6B44D42B035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
