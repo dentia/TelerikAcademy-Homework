@@ -1,0 +1,118 @@
+﻿#calc {
+    width: 470px;
+    display: inline-table;
+    border: 1px solid #8E9DAF;
+    background: linear-gradient(#F1F1F1, #DBE6F2 80%);
+    color: #223F61;
+}
+
+#nav {
+    width: 100%;
+    border-bottom: 1px solid #8E9DAF;
+    margin-bottom: 5px;
+    font-family: 'Arial';
+    font-size: 15px;
+    background: repeating-linear-gradient(#FEFEFF, #E2E7F6);
+    color: #000000;
+}
+
+    #nav tr td:first-letter {
+        text-decoration: underline;
+    }
+
+#display {
+    width: 460px;
+    height: 50px;
+    margin: 3px;
+    text-align: right;
+    font-size: 25px;
+    background: linear-gradient(#E7EFFB, #ffffff);
+    border: 1px solid #8e9daf;    
+    /* ReSharper disable once CssBrowserCompatibility */
+    border-radius: 3px;
+    /* ReSharper disable once CssBrowserCompatibility */
+    box-shadow: inset 0 0 10px #ffffff;
+}
+
+#binary {
+    width: 98%;
+    font-family: 'Consolas';
+    border: 1px solid #8E9DAF;
+    /* ReSharper disable once CssBrowserCompatibility */
+    /* Not compatible with IE 8.0 */
+    border-radius: 3px;
+    /* ReSharper disable once CssBrowserCompatibility */
+    box-shadow: inset 0 0 10px #ffffff;
+    margin: 4px;
+}
+
+    #binary tr td {
+        font-size: 13px;
+        padding: 0 10px 0 10px;
+    }
+
+/* ReSharper disable once CssBrowserCompatibility */
+/* Not compatible with IE 8.0 */
+#binary tr:nth-child(even) {
+    color: #999999;
+}
+
+
+article > fieldset {
+    margin-top: 8px;
+    width: 80px;
+    padding: 13px;
+    border: 1px solid #8E9DAF;
+    /* ReSharper disable once CssBrowserCompatibility */
+    border-radius: 5px;
+}
+
+    article > fieldset > input[type="radio"] {
+        margin: 5px;
+    }
+
+#buttonTable tr td {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+}
+
+button {
+    color: #223F61;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 0;
+    border: 1px solid #93A1B1;
+    /* ReSharper disable once CssBrowserCompatibility */
+    border-radius: 2px;
+    background: linear-gradient(#EEF4F9 50%, #D8E3F0 50%);
+    /* ReSharper disable once CssBrowserCompatibility */
+    box-shadow: inset 0 0 10px #F8FBFF;
+}
+
+    button:disabled {
+        background: none;
+        background-color: #DBE6F2;
+        /* ReSharper disable once CssBrowserCompatibility */
+        box-shadow: none;
+    }
+
+    button:hover:enabled {
+        border-color: #F6D712;
+        background: linear-gradient(#FDEEDE 50%, #FBD47E 50%);
+        /* ReSharper disable once CssBrowserCompatibility */
+        box-shadow: inset 0 0 10px #FEFBF8;
+    }
+
+.digit {
+    font-size: 17px;
+    background: linear-gradient(#F7FAFE 50%, #E9F0F7 50%);
+}
+
+#fieldsets, #buttonTable {
+    float: left;
+}
