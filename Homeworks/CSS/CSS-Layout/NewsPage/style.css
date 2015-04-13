@@ -1,0 +1,61 @@
+﻿body {
+    background-color: #1E3741;
+    font-family: 'Arial';
+}
+
+header nav ul {
+    list-style-type: none;
+}
+    header nav ul li {
+        background-color: #4B5F67;
+        padding: 5px 10px;
+        display: inline;
+    }
+        header nav ul li#activeNav {
+            background: none;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #93ACA9;
+        }
+
+            header nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+        header nav ul li#activeNav a {
+            color: #ffffff;
+        }
+
+section ul {
+    list-style-type: none;
+    color: #A5AFB3;
+    width: 300px;
+    float: left;
+}
+    section ul li {
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+    section ul li:hover {
+        cursor: pointer;
+        background-color: #465F69;
+    }
+
+        section ul li:not(:first-child) {
+            border: 0 solid #3A4F58;
+            border-width: 1px 0 0 0;
+            padding: 5px;
+        }
+
+        section ul li#activeNews {
+            background-color: #00968C;
+            color: #ffffff;
+        }
+
+section img {
+    margin-top: 10px;
+    float: left;
+}

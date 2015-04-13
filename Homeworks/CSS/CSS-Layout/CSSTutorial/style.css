@@ -1,0 +1,100 @@
+﻿body {
+    font-size: 15px;
+    background-color: #F2F2F2;
+}
+
+a {
+    color: #950D0B;
+}
+
+nav {
+    float: left;
+}
+
+nav img {
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+    nav ul li a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    nav ul li:first-child {
+        font-weight: bold;
+        color: #950D0B;
+    }
+
+button {
+    width: 100px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.leftArrow {
+    margin-right: 20px;
+}
+
+.rightArrow {
+    margin-left: 20px;
+}
+
+section {
+    float: left;
+    width: 500px;
+    margin: 0 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #868686;
+}
+
+    section article {
+        width: 500px;
+        text-align: left;
+        text-align: justify;
+    }
+
+    section article, section footer, section header {
+        padding: 10px;
+    }
+
+#articleWithImage > img {
+    float: left;
+    margin-top: 30px;
+}
+
+section > header {
+    border-bottom: 2px solid #929292;
+}
+
+section > footer {
+    border-bottom: 2px solid #929292;
+    border-top: 2px solid #929292;
+}
+
+h4 {
+    margin: 0 0 5px 0;
+    background-color: #929292;
+    color: #ffffff;
+    padding: 2px;
+}
+
+aside {
+    float: left;
+}
+
+aside div {
+    margin: 1px;
+    padding-bottom: 10px;
+    border: 1px solid #868686;
+    display: block;
+    text-align: center;
+}
+
+    aside div input, aside div a, aside div img {
+        margin: 5px;
+    }

@@ -1,0 +1,83 @@
+﻿body {
+    font-family: 'Candara';
+}
+
+header {
+    width: 1000px;
+}
+
+header nav {
+    display: inline;
+    border-bottom: 1px solid #000000;
+    padding: 3px;
+    margin: 20px;
+    text-align: center;
+}
+
+header nav a {
+    font-family: 'Arial Black';
+    margin: 3px;
+    color: #05B4F1;
+}
+
+section {
+    width: 512px;
+    border: 1px solid #000000;
+    overflow: auto;
+    padding: 1px;
+    margin: 10px;
+    float: left;
+}
+
+article {
+    margin: 0;
+}
+
+fieldset {
+    margin:0 1px 0;
+    padding: 0;
+    display:inline-block;
+    width:250px;
+    float: left;
+}
+
+fieldset legend {
+    margin: 0 30px;
+}
+
+fieldset img {
+    width:120px;
+    height:70px;
+    margin:5px;
+    float:left;
+}
+
+    fieldset > span {
+        display: inline-block;
+        margin: 5px;
+        width:80px;
+    }
+
+    fieldset > span:first-of-type {
+    margin-top:30px;
+}
+
+        fieldset>div > span {
+        display: inline-block;
+            margin: 5px 10px 5px;
+        width:100px;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+    ul li {
+        margin: 40px;
+        font-size: 20px;
+    }
+
+input[type="range"] {
+    width: 200px;
+}
