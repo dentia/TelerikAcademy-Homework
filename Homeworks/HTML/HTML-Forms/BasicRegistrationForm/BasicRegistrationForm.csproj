@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9FA5D36D-D38F-4B39-92ED-2F0E42B8BCC5}</ProjectGuid>
+    <ProjectGuid>{4A55F0C7-8605-4E10-BF69-C7CF9DCB2C2D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Laptops</RootNamespace>
-    <AssemblyName>Laptops</AssemblyName>
+    <RootNamespace>BasicRegistrationForm</RootNamespace>
+    <AssemblyName>BasicRegistrationForm</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,7 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,9 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\macbook.png" />
-    <Content Include="laptops.html" />
-    <Content Include="laptopsStyle.css" />
+    <Content Include="form.html" />
+    <Content Include="registrationFormStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,9 +85,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>41110</DevelopmentServerPort>
+          <DevelopmentServerPort>41090</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:30387/</IISUrl>
+          <IISUrl>http://localhost:10829/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

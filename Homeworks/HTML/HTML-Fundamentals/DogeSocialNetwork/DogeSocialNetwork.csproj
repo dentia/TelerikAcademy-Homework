@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9FA5D36D-D38F-4B39-92ED-2F0E42B8BCC5}</ProjectGuid>
+    <ProjectGuid>{763E4977-168F-42DC-9752-F58AA5A8C391}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Laptops</RootNamespace>
-    <AssemblyName>Laptops</AssemblyName>
+    <RootNamespace>DogeSocialNetwork</RootNamespace>
+    <AssemblyName>DogeSocialNetwork</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -66,9 +66,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\macbook.png" />
-    <Content Include="laptops.html" />
-    <Content Include="laptopsStyle.css" />
+    <Content Include="friends.html" />
+    <Content Include="home.html" />
+    <Content Include="images\DogeLion.png" />
+    <Content Include="profile.html" />
+    <Content Include="styles\socialNetworkStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,9 +89,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>41110</DevelopmentServerPort>
+          <DevelopmentServerPort>40982</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:30387/</IISUrl>
+          <IISUrl>http://localhost:40982/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

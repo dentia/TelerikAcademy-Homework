@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6508C0E4-0959-4EAF-B293-A325700029AD}</ProjectGuid>
+    <ProjectGuid>{EE3AB0AD-0983-409B-A229-45BA632A9D77}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,10 +66,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\endPage.png" />
-    <Content Include="Images\nextPage.png" />
-    <Content Include="Images\prevPage.png" />
-    <Content Include="Images\startPage.png" />
+    <Content Include="images\endPage.png" />
+    <Content Include="images\nextPage.png" />
+    <Content Include="images\prevPage.png" />
+    <Content Include="images\startPage.png" />
     <Content Include="productsStyle.css" />
     <Content Include="productTable.html" />
     <Content Include="Web.config" />
@@ -76,7 +77,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -90,7 +90,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>32700</DevelopmentServerPort>
+          <DevelopmentServerPort>41121</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:32700/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

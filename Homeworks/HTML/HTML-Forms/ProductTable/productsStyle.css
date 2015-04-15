@@ -1,25 +1,25 @@
 ﻿#firstPage {
     width: 20px;
     height: 20px;
-    background-image: url("Images/startPage.png");
+    background-image: url(images/startPage.png);
 }
 
 #prevPage {
     width: 20px;
     height: 20px;
-    background-image: url("Images/prevPage.png");
+    background-image: url("images/prevPage.png");
 }
 
 #nextPage {
     width: 20px;
     height: 20px;
-    background-image: url("Images/nextPage.png");
+    background-image: url("images/nextPage.png");
 }
 
 #lastPage {
     width: 20px;
     height: 20px;
-    background-image: url("Images/endPage.png");
+    background-image: url("images/endPage.png");
 }
 
 .pageLink {
