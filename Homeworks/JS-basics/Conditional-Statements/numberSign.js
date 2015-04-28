@@ -2,21 +2,25 @@
 // product of three real numbers without calculating it.
 // Use a sequence of if statements.
 
-var numbers = [-5, 0, 5];
+console.log([0, 5, -5] + ' -> ' + getSign([0, 5, -5]));
+console.log([5, 5, -5] + ' -> ' + getSign([5, 5, -5]));
+console.log([-5, 5, -5] + ' -> ' + getSign([-5, 5, -5]));
+console.log([-5, -5, -5] + ' -> ' + getSign([-5, -5, -5]));
+console.log([5, 5, 5] + ' -> ' + getSign([5, 5, 5]));
 
-for(var ind in numbers){
-    var number = numbers[ind];
+function getSign(numbers){
+    var negativeCount = 0;
 
-    console.log(number + '\t' + getSign(number));
-}
-
-function getSign(number){
-    if(number){
-        if(number > 0){
-            return '+';
+    for(var ind = 0; ind < numbers.length; ind++){
+        if(numbers[ind]){
+            if(numbers[ind] * -1 > numbers[ind]){
+                ++negativeCount;
+            }
+        }else{
+            return 0;
         }
-        return '-';
     }
-    return '0';
+
+    return (negativeCount % 2) ? '-' : '+';
 }
 
