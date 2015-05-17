@@ -43,12 +43,14 @@ function shimQuerySelectorAll() {
         return collection.reverse();
     }
 }
+
 function shimQuerySelector() {
     document.querySelector = function (query) {
         var result = this.querySelectorAll(query);
         return result[0] ? result[0] : null;
     }
 }
+
 if(!document.querySelectorAll){
 
     if(!document.createStyleSheet){
