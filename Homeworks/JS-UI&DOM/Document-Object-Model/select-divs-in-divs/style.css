@@ -1,0 +1,18 @@
+div{
+    width: 50%;
+    font-size: 35px;
+    background-color: #999999;
+    color: #ffffff;
+    border: 3px solid #000000;
+    margin: 10px;
+}
+
+ul, li{
+    border: 1px solid #000000;
+}
+
+button{
+    font-size: 20px;
+    background-color: #606060;
+    color: #DADADA;
+}
