@@ -1,7 +1,22 @@
 // Write a script that prints all the numbers from 1 to N
 
-var n = 10;
+var n1 = 5,
+	n2 = -5;
+	
+	printToN(n1);
+	printToN(n2);
 
-for(var number = 1; number <= n; number++){
-    console.log(number);
+function printToN(n) {
+	var change = n < 1 ? -1 : 1,
+		tmp = 1;
+	
+	while (true) {
+		console.log(tmp);
+		
+		if (tmp === n) {
+			break;
+		}
+		
+		tmp += change;
+	}
 }
