@@ -1,0 +1,18 @@
+﻿p {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#check-browser-btn {
+    width: 400px;
+    height: 150px;
+    font-size: 40px;
+    color: #ffffff;
+    background: #e88733; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #e88733 1%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(1%,#e88733), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #e88733 1%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #e88733 1%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #e88733 1%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #e88733 1%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e88733', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
