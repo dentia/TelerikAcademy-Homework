@@ -3,8 +3,8 @@
 // It must throw an Error if any of the range params is not convertible to Number
 // It must throw an Error if any of the range params is missing
 
-function getPrimesInRange(start, end) {
-    if(arguments.length < 2) {
+function findPrimes(start, end) {
+ if(arguments.length < 2) {
         throw  new Error('The function must have both starting and ending point.');
     } else if (!isNumber(start) || !isNumber(end)) {
         throw  new Error('Both the starting and ending parameter must be convertible to numbers.');
@@ -44,5 +44,7 @@ function getPrimesInRange(start, end) {
         }
 
         return isPrime;
-    }
+    }	
 }
+
+module.exports = findPrimes;

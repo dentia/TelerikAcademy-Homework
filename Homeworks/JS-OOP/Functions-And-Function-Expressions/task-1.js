@@ -5,7 +5,7 @@
 // Throws if any of the elements is not convertible to Number
 
 function sum(numbers) {
-    if(numbers === undefined) {
+   if(numbers === undefined) {
         throw new Error('The array cannot be undefined.');
     } else if(!numbers.length){
         return null;
@@ -21,3 +21,5 @@ function sum(numbers) {
         }, 0);
     }
 }
+
+module.exports = sum;
