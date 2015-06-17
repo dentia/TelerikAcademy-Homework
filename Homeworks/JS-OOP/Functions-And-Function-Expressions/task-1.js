@@ -21,5 +21,3 @@ function sum(numbers) {
         }, 0);
     }
 }
-
-module.exports = sum;

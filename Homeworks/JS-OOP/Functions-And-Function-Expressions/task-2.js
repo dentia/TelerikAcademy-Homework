@@ -46,5 +46,3 @@ function findPrimes(start, end) {
         return isPrime;
     }	
 }
-
-module.exports = findPrimes;
