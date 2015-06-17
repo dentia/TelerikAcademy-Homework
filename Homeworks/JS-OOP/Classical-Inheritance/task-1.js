@@ -40,10 +40,6 @@ function solve() {
             this.firstname = firstname;
             this.lastname = lastname;
             this.age = age;
-
-            validateName(this.firstname);
-            validateName(this.lastname);
-            validateAge(this.age);
         }
 
         Person.prototype.introduce = function() {
