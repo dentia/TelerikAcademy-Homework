@@ -93,6 +93,10 @@ function solve() {
             if(isbn.length !== 10 && isbn.length !== 13) {
                 throw new Error('ISBN must be either 10 or 13 digits');
             }
+			
+				if(!/^[0-9]+$/.test(isbn.toString())) {
+					throw new Error('ISBN must be a valid number');
+				}
         }
 
         function validateCategoryAndBookName(name) {
