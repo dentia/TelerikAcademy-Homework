@@ -19,12 +19,12 @@ function solve() {
     var Person = (function () {
         function validateName(name) {
             if(!/^[A-Za-z]{3,20}$/.test(name)) {
-                throw new Error('First and last name must consist only of latin letters and be between 3 nad 20 characters long.');
+                throw new Error('First and last name must consist only of latin letters and be between 3 and 20 characters long.');
             }
         }
 
         function validateAge(age) {
-            if(age != Number(age)) {
+            if(age.toString() === '' || age != Number(age)) {
                 throw  new Error('Age must be a valid number');
             }
 
