@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.ILS.Common.StringExtensions">
+            <summary>
+            The class provides string extension methods.
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            The method hashes a string with the MD5 algorithm
+            </summary>
+            <returns>MD5 hashed string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            The method checks if the string has a boolean value
+            </summary>
+            <returns>Returns true if the string has a boolean true value, false - otherwise</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            The method tries to parse the string to short
+            </summary>
+            <returns>Returns variable of type short if the string is a number, null - otherwise</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            The method tries to parse the string to integer
+            </summary>
+            <returns>Returns variable of type int if the string is a number, null - otherwise</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            The method tries to parse the string to long
+            </summary>
+            <returns>Returns variable of type long if the string is a number, null - otherwise</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            The method tries to parse the string to DateTime format
+            </summary>
+            <returns>Returns variable of type DateTime if the string can be parsed, null - otherwise</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            The method capitalizes the first letter of the string
+            </summary>
+            <returns>Returns the capitalized string</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            The method returns a substring between two strings
+            </summary>
+            <param name="startString">Starting point of the substring</param>
+            <param name="endString">Ending point of the substring</param>
+            <param name="startFrom"></param>
+            <returns>Returns the string between startString and endString. If the arguments are not contained in the initial string, the method returns an empty string.</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            The method converts a cyrillic text to latin one
+            </summary>
+            <returns>Returns the converted to latin cyrillic text</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            The method converts a latin text to cyrillic one
+            </summary>
+            <returns>Returns the converted to cyrillic latin text</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            The method replaces all invalid symbols with empty string
+            </summary>
+            <returns>Returns the string converted to a valid username</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            The method replaces all invalid symbols with empty string
+            </summary>
+            <returns>Returns the string converted to a valid file name</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            The method returns the first N characters of the string
+            </summary>
+            <param name="charsCount">How many characters to take from the string</param>
+            <returns>Returns the first N characters</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            The method gets the extension of a string with filename
+            </summary>
+            <returns>Returns the file extension or empty string if the fileName string IsNullOrWhiteSpace or has no extension</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            The method gets the content type of a file extension
+            </summary>
+            <returns>Returns the content type if known, "application/octet-stream" - otherwise</returns>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            The method converts a string to byte array
+            </summary>
+            <returns>Returns a byte array of the string</returns>
+        </member>
+    </members>
+</doc>
