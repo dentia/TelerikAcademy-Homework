@@ -1,6 +1,7 @@
-﻿using System;
-namespace School
+﻿namespace School
 {
+    using System;
+
     public class Student
     {
         private const int MinValidIdValue = 10000;

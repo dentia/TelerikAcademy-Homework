@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-namespace School
+﻿namespace School
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class School
     {
         private ICollection<Course> courses;
@@ -62,7 +63,7 @@ namespace School
                 throw new InvalidOperationException("This student has been already added.");
             }
 
-            if (students.Any(st => st.ID == student.ID))
+            if (this.students.Any(st => st.ID == student.ID))
             {
                 throw new ArgumentException("There is already a student with the same ID.");
             }

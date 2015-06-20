@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-namespace School
+﻿namespace School
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Course
     {
         private const int MaxStudentsCount = 30;
