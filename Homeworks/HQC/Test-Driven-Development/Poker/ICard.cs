@@ -1,4 +1,4 @@
-namespace Poker
+﻿namespace Poker
 {
     public interface ICard
     {

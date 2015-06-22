@@ -30,7 +30,7 @@
         public bool IsStraightFlush(IHand hand)
         {
             var isStraight = true;
-            
+
             var sorted = hand.Cards.Select(value => (int)value.Face).OrderBy(value => value).ToArray();
 
             if (sorted.Contains((int)CardFace.Ace) && sorted.Contains((int)CardFace.Two))
