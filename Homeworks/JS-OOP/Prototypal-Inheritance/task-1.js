@@ -60,7 +60,7 @@ function solve() {
             if(typeof type !== 'string'){
                 throw new Error('Invalid string argument.');
             }
-
+            
             return /^[A-Z0-9]+$/i.test(type);
         }
 
@@ -68,7 +68,7 @@ function solve() {
             if(typeof name !== 'string'){
                 throw new Error('Invalid string argument.');
             }
-
+            
             return /^[A-Z0-9\-]+$/i.test(name);
         }
 
@@ -103,7 +103,11 @@ function solve() {
             },
             appendChild: function(child) {
                 this.children.push(child);
-
+					  
+					  if(typeof child === 'object'){
+						  child.parent = this;
+					  }
+					  
                 return this;
             },
             addAttribute: function(name, value) {
