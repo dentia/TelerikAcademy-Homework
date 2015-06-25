@@ -1,162 +1,195 @@
 /* Task Description */
 /*
- * Create a module for a Telerik Academy course
- * The course has a title and presentations
- * Each presentation also has a title
- * There is a homework for each presentation
- * There is a set of students listed for the course
- * Each student has firstname, lastname and an ID
- * IDs must be unique integer numbers which are at least 1
- * Each student can submit a homework for each presentation in the course
- * Create method init
- * Accepts a string - course title
- * Accepts an array of strings - presentation titles
- * Throws if there is an invalid title
- * Titles do not start or end with spaces
- * Titles do not have consecutive spaces
- * Titles have at least one character
- * Throws if there are no presentations
- * Create method addStudent which lists a student for the course
- * Accepts a string in the format 'Firstname Lastname'
- * Throws if any of the names are not valid
- * Names start with an upper case letter
- * All other symbols in the name (if any) are lowercase letters
- * Generates a unique student ID and returns it
- * Create method getAllStudents that returns an array of students in the format:
- * {firstname: 'string', lastname: 'string', id: StudentID}
- * Create method submitHomework
- * Accepts studentID and homeworkID
- * homeworkID 1 is for the first presentation
- * homeworkID 2 is for the second one
- * ...
- * Throws if any of the IDs are invalid
- * Create method pushExamResults
- * Accepts an array of items in the format {StudentID: ..., Score: ...}
- * StudentIDs which are not listed get 0 points
- * Throw if there is an invalid StudentID
- * Throw if same StudentID is given more than once ( he tried to cheat (: )
- * Throw if Score is not a number
- * Create method getTopStudents which returns an array of the top 10 performing students
- * Array must be sorted from best to worst
- * If there are less than 10, return them all
- * The final score that is used to calculate the top performing students is done as follows:
- * 75% of the exam result
- * 25% the submitted homework (count of submitted homeworks / count of all homeworks) for the course
+ * Create an object domElement, that has the following properties and methods:
+ * use prototypal inheritance, without function constructors
+ * method init() that gets the domElement type
+ * i.e. `Object.create(domElement).init('div')`
+ * property type that is the type of the domElement
+ * a valid type is any non-empty string that contains only Latin letters and digits
+ * property innerHTML of type string
+ * gets the domElement, parsed as valid HTML
+ * <type attr1="value1" attr2="value2" ...> .. content / children's.innerHTML .. </type>
+ * property content of type string
+ * sets the content of the element
+ * works only if there are no children
+ * property attributes
+ * each attribute has name and value
+ * a valid attribute has a non-empty string for a name that contains only Latin letters and digits or dashes (-)
+ * property children
+ * each child is a domElement or a string
+ * property parent
+ * parent is a domElement
+ * method appendChild(domElement / string)
+ * appends to the end of children list
+ * method addAttribute(name, value)
+ * throw Error if type is not valid
+ * // method removeAttribute(attribute)
  */
 
+
+/* Example
+ var meta = Object.create(domElement)
+ .init('meta')
+ .addAttribute('charset', 'utf-8');
+ var head = Object.create(domElement)
+ .init('head')
+ .appendChild(meta)
+ var div = Object.create(domElement)
+ .init('div')
+ .addAttribute('style', 'font-size: 42px');
+ div.content = 'Hello, world!';
+ var body = Object.create(domElement)
+ .init('body')
+ .appendChild(div)
+ .addAttribute('id', 'cuki')
+ .addAttribute('bgcolor', '#012345');
+ var root = Object.create(domElement)
+ .init('html')
+ .appendChild(head)
+ .appendChild(body);
+ console.log(root.innerHTML);
+ Outputs:
+ <html><head><meta charset="utf-8"></meta></head><body bgcolor="#012345" id="cuki"><div style="font-size: 42px">Hello, world!</div></body></html>
+ */
+
+
 function solve() {
-    function isValidTitle(title) {
-        if (title === null || typeof title !== 'string') {
-            return false;
-        }
+    var domElement = (function () {
 
-        if (title.length === 0 || title.trim() == '' || title.length != title.trim().length || /[\s]{2,}/.test(title)) {
-            return false;
-        }
-
-        return true;
-    }
-
-    function areValidPresentations(presentations) {
-        if (presentations === null || !Array.isArray(presentations) || presentations.length === 0) {
-            return false;
-        }
-
-        for (var ind = 0, len = presentations.length; ind < len; ind += 1) {
-            if (!isValidTitle(presentations[ind])) {
-                return false;
+        function isValidType(type){
+            if(typeof type !== 'string'){
+                throw new Error('Invalid string argument.');
             }
+            
+            return /^[A-Z0-9]+$/i.test(type);
         }
 
-        return true;
-    }
-
-    function isValidStudentName(name) {
-        return /^[A-Z][a-z]*$/.test(name);
-    }
-
-    function isValidId(id, min, max) {
-        if (id != Number(id)) {
-            return false;
+        function isValidAttributeName(name){
+            if(typeof name !== 'string'){
+                throw new Error('Invalid string argument.');
+            }
+            
+            return /^[A-Z0-9\-]+$/i.test(name);
         }
 
-        id = +id;
+        function getSortedAttributesString(attributes){
+            var attributesString = '';
+            var keys = [];
 
-        if (id < min || id > max || id != (id | 0)) {
-            return false;
-        }
-
-        return true;
-    }
-
-    var Course = {
-        init: function (title, presentations) {
-            this.title = title;
-            this.presentations = presentations;
-
-            return this;
-        },
-        addStudent: function (name) {
-            if (name === null || typeof name !== 'string' || name.trim() === '') {
-                throw new Error('Invalid student name.');
+            for(var key in attributes){
+                keys.push(key);
             }
 
-            var splitted = name.split(/[\s]+/);
+            keys.sort();
+            var currentKey;
 
-            if (splitted.length !== 2 || !isValidStudentName(splitted[0]) || !isValidStudentName(splitted[1])) {
-                throw new Error('Invalid student name.');
+            for(var ind = 0, len = keys.length; ind < len; ind += 1){
+                currentKey = keys[ind];
+                attributesString += ' ' + currentKey + '="' + attributes[currentKey] + '"';
             }
 
-            students.push({
-                firstname: splitted[0],
-                lastname: splitted[1],
-                id: studentId
-            });
-
-            return studentId++;
-        },
-        getAllStudents: function () {
-            return students.slice();
-        },
-        submitHomework: function (studentID, homeworkID) {
-            if (!isValidId(studentID, 1, students.length) || !isValidId(homeworkID, 1, this.presentations.length)) {
-                throw new Error('Invalid ID passed.');
-            }
-        },
-        pushExamResults: function (results) {
-        },
-        getTopStudents: function () {
+            return attributesString;
         }
-    };
 
-    var students = [],
-        studentId = 1;
+        var domElement = {
+            init: function(type) {
+                this.type = type;
+                this.content = '';
+                this.parent;
+                this.children = [];
+                this.attributes = [];
 
-    Object.defineProperty(Course, 'title', {
-        get: function () {
-            return Course._title;
-        },
-        set: function (title) {
-            if (!isValidTitle(title)) {
-                throw new Error('Invalid title.');
+                return this;
+            },
+            appendChild: function(child) {
+                this.children.push(child);
+
+                if(typeof child === 'object'){
+                    child.parent = this;
+                }
+					  
+                return this;
+            },
+            addAttribute: function(name, value) {
+                if(!isValidAttributeName(name)){
+                    throw new Error('Invalid attribute name.');
+                }
+
+                this.attributes[name] = value;
+
+                return this;
+            },
+            removeAttribute: function(attribute) {
+                if(!this.attributes[attribute]){
+                    throw new Error('This attribute does not exist.');
+                }
+
+                delete this.attributes[attribute];
+
+                return this;
+            },
+            get innerHTML(){
+                var innerHtml = '<' + this. type;
+                var attributesString = getSortedAttributesString(this.attributes);
+                innerHtml += attributesString + '>';
+
+                var child;
+                for(var ind = 0, len = this.children.length; ind < len; ind += 1){
+                    child = this.children[ind];
+
+                    if(typeof child === 'string') {
+                        innerHtml += child;
+                    } else {
+                        innerHtml += child.innerHTML;
+                    }
+                }
+
+                innerHtml += this.content;
+                innerHtml += '</' + this.type + '>';
+
+                return innerHtml;
+            },
+            get type(){
+                return this._type;
+            },
+            set type(value){
+                if(!isValidType(value)){
+                    throw new Error('Invalid type.');
+                }
+
+                this._type = value;
+            },
+            get content(){
+                if(this.children.length){
+                    return '';
+                }
+
+                return this._content;
+            },
+            set content(value){
+                this._content = value;
+            },
+            get attributes(){
+                return this._attributes;
+            },
+            set attributes(value){
+                this._attributes = value;
+            },
+            get children(){
+                return this._children;
+            },
+            set children(value){
+                this._children = value;
+            },
+            get parent(){
+                return this._parent;
+            },
+            set parent(value){
+                this._parent = value;
             }
 
-            Course._title = title;
-        }
-    });
-
-    Object.defineProperty(Course, 'presentations', {
-        get: function () {
-            return Course._presentations;
-        },
-        set: function (presentations) {
-            if (!areValidPresentations(presentations)) {
-                throw new Error('Invalid presentations.');
-            }
-
-            Course._presentations = presentations;
-        }
-    });
-
-    return Course;
+        };
+        return domElement;
+    } ());
+    return domElement;
 }
