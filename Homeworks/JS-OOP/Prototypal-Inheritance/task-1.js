@@ -119,6 +119,15 @@ function solve() {
 
                 return this;
             },
+            removeAttribute: function(attribute) {
+                if(!this.attributes[attribute]){
+                    throw new Error('This attribute does not exist.');
+                }
+
+                delete this.attributes[attribute];
+
+                return this;
+            },
             get innerHTML(){
                 var innerHtml = '<' + this. type;
                 var attributesString = getSortedAttributesString(this.attributes);
