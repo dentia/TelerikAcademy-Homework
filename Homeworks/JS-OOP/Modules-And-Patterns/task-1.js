@@ -119,7 +119,7 @@ function solve() {
             return students.slice();
         },
         submitHomework: function (studentID, homeworkID) {
-            if (isValidId(studentID, 1, studentID.length) || isValidId(homeworkID, 1, this.presentations.length)) {
+            if (!isValidId(studentID, 1, students.length) || !isValidId(homeworkID, 1, this.presentations.length)) {
                 throw new Error('Invalid ID passed.');
             }
         },
