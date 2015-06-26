@@ -1,5 +1,5 @@
 /* Task Description */
-/*
+/* 
  * Create a module for a Telerik Academy course
  * The course has a title and presentations
  * Each presentation also has a title
@@ -45,102 +45,43 @@
  */
 
 function solve() {
-    function isValidTitle(title) {
-        if (title === null || typeof title !== 'string') {
-            return false;
-        }
-
-        if (title.length === 0 || title.trim() == '' || title.length != title.trim().length || /[\s]{2,}/.test(title)) {
-            return false;
-        }
-
-        return true;
-    }
-
-    function areValidPresentations(presentations) {
-        if (presentations === null || !Array.isArray(presentations) || presentations.length === 0) {
-            return false;
-        }
-
-        for (var ind = 0, len = presentations.length; ind < len; ind += 1) {
-            if (!isValidTitle(presentations[ind])) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    function isValidStudentName(name) {
-        return /^[A-Z][a-z]*$/.test(name);
-    }
-
-    function isValidId(id, min, max) {
-        if (id != Number(id)) {
-            return false;
-        }
-
-        id = +id;
-
-        if (id < min || id > max || id != (id | 0)) {
-            return false;
-        }
-
-        return true;
-    }
-
     var Course = {
-        init: function (title, presentations) {
+        init: function(title, presentations) {
+            validateTitle(title);
             this.title = title;
+            validatePresentations(presentations);
             this.presentations = presentations;
+            this.students = [];
 
             return this;
         },
-        addStudent: function (name) {
-            if (name === null || typeof name !== 'string' || name.trim() === '') {
-                throw new Error('Invalid student name.');
-            }
+        addStudent: function(name) {
+            var student = validateName(name);
+            var id = this.students.length + 1;
+            student.id = id;
 
-            var splitted = name.split(/[\s]+/);
+            this.students.push(student);
 
-            if (splitted.length !== 2 || !isValidStudentName(splitted[0]) || !isValidStudentName(splitted[1])) {
-                throw new Error('Invalid student name.');
-            }
-
-            students.push({
-                firstname: splitted[0],
-				id: studentId,
-                lastname: splitted[1]
-            });
-
-            return studentId++;
+            return id;
         },
-        getAllStudents: function () {
-            return students.slice();
+        getAllStudents: function() {
+            return this.students.slice();
         },
-        submitHomework: function (studentID, homeworkID) {
-            if (!isValidId(studentID, 1, students.length) || !isValidId(homeworkID, 1, this.presentations.length)) {
-                throw new Error('Invalid ID passed.');
-            }
+        submitHomework: function(studentID, homeworkID) {
+            validateId(studentID, 1, this.students.length);
+            validateId(homeworkID, 1, this.presentations.length);
         },
-        pushExamResults: function (results) {
+        pushExamResults: function(results) {
         },
-        getTopStudents: function () {
+        getTopStudents: function() {
         }
     };
 
-    var students = [],
-        studentId = 1;
-
     Object.defineProperty(Course, 'title', {
-        get: function () {
-            return Course._title;
-        },
-        set: function (title) {
-            if (!isValidTitle(title)) {
-                throw new Error('Invalid title.');
-            }
-
+       get: function () {
+        return Course._title;
+       },
+        set: function(title){
             Course._title = title;
         }
     });
@@ -149,14 +90,86 @@ function solve() {
         get: function () {
             return Course._presentations;
         },
-        set: function (presentations) {
-            if (!areValidPresentations(presentations)) {
-                throw new Error('Invalid presentations.');
-            }
-
+        set: function(presentations){
             Course._presentations = presentations;
         }
     });
+
+    Object.defineProperty(Course, 'students', {
+        get: function () {
+            return Course._students;
+        },
+        set: function(students){
+            Course._students = students;
+        }
+    });
+
+    function validateTitle(title){
+        if(title === null || typeof title !== 'string'){
+            throw 'Invalid type for title.';
+        }
+
+        if(title.trim() === '' || title !== title.trim()){
+            throw 'Invalid title.';
+        }
+
+        if(/[\s]{2,}/.test(title)){
+            throw 'Invalid spacing.';
+        }
+    }
+
+    function validatePresentations(presentations){
+        if(presentations === null || !Array.isArray(presentations)){
+            throw 'Invalid type for presentations';
+        }
+
+        if(presentations.length === 0){
+            throw 'Invalid length.';
+        }
+
+        presentations.forEach(function (title) {
+           validateTitle(title);
+        });
+    }
+
+    function validateName(name){
+        if(name === null || typeof name !== 'string'){
+            throw 'Invalid type for name.';
+        }
+
+        if(name.trim() === ''){
+            throw 'Empty names string.';
+        }
+
+        var names = name.split(' ');
+
+        if(names.length !== 2){
+            throw 'Invalid names string.';
+        }
+
+        names.forEach(function(n){
+           if(!/^[A-Z][a-z]*$/.test(n)){
+               throw 'Invalid name.';
+           }
+        });
+
+        return {
+          firstname: names[0],
+          lastname: names[1]
+        };
+    }
+
+    function validateId(id, min, max){
+        if(id != Number(id)){
+            throw 'Invalid type for id.';
+        }
+
+        id = +id;
+
+        if(id < min || id > max){
+            throw 'Invalid range.';
+        }
+    }
 
     return Course;
 }
