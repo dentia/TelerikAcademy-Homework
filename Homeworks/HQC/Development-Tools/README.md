@@ -1,5 +1,6 @@
-Homework
-1. Research and use the following tools on one of your
+### Homework
+## Task-1
+Research and use the following tools on one of your
 projects and provide some output or screenshots for
 each tool to prove that you actually used the tools
 ? One source control system (TFS, SVN or Git)
@@ -8,8 +9,12 @@ each tool to prove that you actually used the tools
 ? JustDecompile
 ? Sandcastle or Doxygen
 ? Some obfuscation tool of your choice
-2. Write a simple T4 template of your choice
-3. Upload anonymously a project to a project hosting
+
+## Task-2
+Write a simple T4 template of your choice
+
+## Task-3
+Upload anonymously a project to a project hosting
 site (GitHub, Google Code, etc.) and provide a public
 link to the project. The project can be from your
 homework.
