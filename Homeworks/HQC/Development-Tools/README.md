@@ -1,5 +1,6 @@
-### Homework
-## Task-1
+## Homework
+
+#### Research and use tools
 Research and use the following tools on one of your
 projects and provide some output or screenshots for
 each tool to prove that you actually used the tools
@@ -10,10 +11,10 @@ each tool to prove that you actually used the tools
 * Sandcastle or Doxygen
 * Some obfuscation tool of your choice
 
-## Task-2
+#### T4 template
 Write a simple T4 template of your choice
 
-## Task-3
+#### upload project anonymously
 Upload anonymously a project to a project hosting
 site (GitHub, Google Code, etc.) and provide a public
 link to the project. The project can be from your
