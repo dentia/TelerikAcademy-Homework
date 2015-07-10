@@ -16,6 +16,7 @@
         /// <summary>
         /// The method hashes a string with the MD5 algorithm
         /// </summary>
+        /// <param name="input">The string to be hashed</param>
         /// <returns>MD5 hashed string</returns>
         public static string ToMd5Hash(this string input)
         {
@@ -42,6 +43,7 @@
         /// <summary>
         /// The method checks if the string has a boolean value
         /// </summary>
+        /// <param name="input">The string to be converted to boolean</param>
         /// <returns>Returns true if the string has a boolean true value, false - otherwise</returns>
         public static bool ToBoolean(this string input)
         {
@@ -52,6 +54,7 @@
         /// <summary>
         /// The method tries to parse the string to short
         /// </summary>
+        /// <param name="input">The string to be converted to short</param>
         /// <returns>Returns variable of type short if the string is a number, null - otherwise</returns>
         public static short ToShort(this string input)
         {
@@ -63,6 +66,7 @@
         /// <summary>
         /// The method tries to parse the string to integer
         /// </summary>
+        /// <param name="input">The string to be converted to int</param>
         /// <returns>Returns variable of type int if the string is a number, null - otherwise</returns>
         public static int ToInteger(this string input)
         {
@@ -74,6 +78,7 @@
         /// <summary>
         /// The method tries to parse the string to long
         /// </summary>
+        /// <param name="input">The string to be converted to long</param>
         /// <returns>Returns variable of type long if the string is a number, null - otherwise</returns>
         public static long ToLong(this string input)
         {
@@ -85,6 +90,7 @@
         /// <summary>
         /// The method tries to parse the string to DateTime format
         /// </summary>
+        /// <param name="input">The string to be converted to DateTime variable</param>
         /// <returns>Returns variable of type DateTime if the string can be parsed, null - otherwise</returns>
         public static DateTime ToDateTime(this string input)
         {
@@ -96,6 +102,7 @@
         /// <summary>
         /// The method capitalizes the first letter of the string
         /// </summary>
+        /// <param name="input">The string to be capitalized</param>
         /// <returns>Returns the capitalized string</returns>
         public static string CapitalizeFirstLetter(this string input)
         {
@@ -111,9 +118,10 @@
         /// <summary>
         /// The method returns a substring between two strings
         /// </summary>
+        /// <param name="input">The string from which the method returns a substring</param>
         /// <param name="startString">Starting point of the substring</param>
         /// <param name="endString">Ending point of the substring</param>
-        /// <param name="startFrom"></param>
+        /// <param name="startFrom">from wgere to start searching for startString (optional)</param>
         /// <returns>Returns the string between startString and endString. If the arguments are not contained in the initial string, the method returns an empty string.</returns>
         public static string GetStringBetween(this string input, string startString, string endString, int startFrom = 0)
         {
@@ -142,6 +150,7 @@
         /// <summary>
         /// The method converts a cyrillic text to latin one
         /// </summary>
+        /// <param name="input">The string to be converted to latin</param>
         /// <returns>Returns the converted to latin cyrillic text</returns>
         public static string ConvertCyrillicToLatinLetters(this string input)
         {
@@ -168,6 +177,7 @@
         /// <summary>
         /// The method converts a latin text to cyrillic one
         /// </summary>
+        /// <param name="input">The string to be converted to cyrillic</param>
         /// <returns>Returns the converted to cyrillic latin text</returns>
         public static string ConvertLatinToCyrillicKeyboard(this string input)
         {
@@ -196,6 +206,7 @@
         /// <summary>
         /// The method replaces all invalid symbols with empty string
         /// </summary>
+        /// <param name="input">The string to be validated</param>
         /// <returns>Returns the string converted to a valid username</returns>
         public static string ToValidUsername(this string input)
         {
@@ -206,6 +217,7 @@
         /// <summary>
         /// The method replaces all invalid symbols with empty string
         /// </summary>
+        /// <param name="input">The string to be converted to valid file name</param>
         /// <returns>Returns the string converted to a valid file name</returns>
         public static string ToValidLatinFileName(this string input)
         {
@@ -216,6 +228,7 @@
         /// <summary>
         /// The method returns the first N characters of the string
         /// </summary>
+        /// <param name="input">The string from which the method returns a substring</param>
         /// <param name="charsCount">How many characters to take from the string</param>
         /// <returns>Returns the first N characters</returns>
         public static string GetFirstCharacters(this string input, int charsCount)
@@ -226,6 +239,7 @@
         /// <summary>
         /// The method gets the extension of a string with filename
         /// </summary>
+        /// <param name="input">file string</param>
         /// <returns>Returns the file extension or empty string if the fileName string IsNullOrWhiteSpace or has no extension</returns>
         public static string GetFileExtension(this string fileName)
         {
@@ -246,6 +260,7 @@
         /// <summary>
         /// The method gets the content type of a file extension
         /// </summary>
+        /// <param name="input">file extension string</param>
         /// <returns>Returns the content type if known, "application/octet-stream" - otherwise</returns>
         public static string ToContentType(this string fileExtension)
         {
@@ -274,6 +289,7 @@
         /// <summary>
         /// The method converts a string to byte array
         /// </summary>
+        /// <param name="input">The string to be converted to byte array</param>
         /// <returns>Returns a byte array of the string</returns>
         public static byte[] ToByteArray(this string input)
         {
