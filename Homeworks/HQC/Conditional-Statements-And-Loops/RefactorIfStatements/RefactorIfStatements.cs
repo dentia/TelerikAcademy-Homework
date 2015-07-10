@@ -57,7 +57,7 @@
 
         public static bool IsInRange(int value, int min, int max)
         {
-            bool isInRange = (value >= min && value <= max);
+            bool isInRange = value >= min && value <= max;
 
             return isInRange;
         }
