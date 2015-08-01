@@ -2,8 +2,7 @@ function solve() {
     var CONST = {
             selector: {
                 button: '.button',
-                content: '.content',
-                nextButton: '.button:first'
+                content: '.content'
             },
             class: {
                 content: 'content',
@@ -38,7 +37,7 @@ function solve() {
                     $content;
 
                 $content = $clicked.next(CONST.selector.content);
-                if ($content.length && $content.nextAll(CONST.selector.nextButton).length) {
+                if ($content.length && $content.nextAll(CONST.selector.button).length) {
                     if ($content.css('display') === CONST.display.hidden) {
                         $clicked.text('hide');
                         $content.css('display', CONST.display.visible);
