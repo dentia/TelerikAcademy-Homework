@@ -1,5 +1,4 @@
 function solve() {
-
     return function (selector) {
         var template =
             '<table class="items-table">' +
@@ -22,8 +21,6 @@ function solve() {
                     '{{/each}}' +
                 '</tbody>' +
             '</table>';
-
-
 
         $(selector).html(template);
     };
