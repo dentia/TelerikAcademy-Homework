@@ -1,0 +1,34 @@
+﻿.linear-gradient(@from-color, @from-pos, @to-color, @to-pos) {
+    background: @from-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+}
+
+@border-radius: 15px;
+
+body {
+    .linear-gradient(#bfd255, 50%, #94C90E, 50%);
+    text-align: center;
+}
+
+nav {
+    img {
+        width: 250px;
+        height: 180px;
+        display: inline-block;
+        border-radius: @border-radius;
+    }
+}
+
+#imageHolder {
+    margin: 10px;
+
+    img {
+        border-radius: @border-radius;
+    }
+}

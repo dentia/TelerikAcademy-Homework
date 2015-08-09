@@ -1,0 +1,41 @@
+﻿body {
+}
+
+#registrationFormTable td {
+    border: 1px solid #777777;
+    padding: 5px;
+}
+
+#registrationFormTable tr:nth-child(even) {
+    background: #F0F0F0
+}
+
+#registrationFormTable tr:nth-child(odd) {
+    background: #FFFFFF
+}
+
+#registrationFormTable label {
+    font-weight: 900;
+}
+
+textarea {
+    resize: none;
+}
+
+.minWidth {
+    width: 30px;
+}
+
+.fullWidth {
+    width: 98%;
+}
+
+#foot {
+    background: #C7FFBC;
+}
+
+#foot button, #foot input {
+    width: 42%;
+    margin: 2px 12px 2px 12px;
+    height: 30px;
+}

@@ -7,7 +7,7 @@ namespace PointInCircleOutRectangle
     using System.Linq;
     class PointInCircleOutRectangle
     {
-        const double radius = 5;
+        const double radius = 1.5;
         const double xY = 1;
         static void Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace PointInCircleOutRectangle
                 .Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(x => Double.Parse(x))
                 .ToArray();
-            Console.WriteLine(IsInsideCircle(coords[0], coords[1]) && !IsOutsideRectangle(coords[0], coords[1]));
+            Console.WriteLine(IsInsideCircle(coords[0], coords[1]) && IsOutsideRectangle(coords[0], coords[1]));
         }
 
         static bool IsInsideCircle(double x, double y)
@@ -29,9 +29,9 @@ namespace PointInCircleOutRectangle
         {
             //R(top=1, left=-1, width=6, height=2)
 
-            double x1 = -1, x2 = 5, y1 = 1, y2 = 5;
+            double left = -1, right = 5, top = 1, bottom = -1;
 
-            return !(X >= x1 && X <= x2 && Y >= y1 && Y <= y2);
+            return !(Y <= top && Y >= bottom && X >= left && xY <= right);
         }
     }
 }

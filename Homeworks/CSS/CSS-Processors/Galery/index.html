@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+    <script src="zoom.js"></script>
+</head>
+<body>
+<nav>
+    <img src="images/cat1.jpg" alt="cat" onmouseover="changeImage('1')" onmouseout="changeImage('select')" />
+    <img src="images/cat2.jpg" alt="cat" onmouseover="changeImage('2')" onmouseout="changeImage('select')" />
+    <img src="images/cat3.jpg" alt="cat" onmouseover="changeImage('3')" onmouseout="changeImage('select')" />
+    <img src="images/cat4.jpg" alt="cat" onmouseover="changeImage('4')" onmouseout="changeImage('select')" />
+    <img src="images/cat5.jpg" alt="cat" onmouseover="changeImage('5')" onmouseout="changeImage('select')" />
+</nav>
+
+<div id="imageHolder">
+    <img id="zoomedImage" src="images/catselect.jpg" alt="cat"/>
+</div>
+
+</body>
+</html>

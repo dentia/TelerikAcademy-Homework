@@ -1,0 +1,6 @@
+start notawordstart stArt
+startalso not a word
+all the words fromthe line bellow should be replaced
+start StarT /STaRT/ -start- .START!
+won't be replaced - start0, 1start s7art
+will be replaced - start,start,start

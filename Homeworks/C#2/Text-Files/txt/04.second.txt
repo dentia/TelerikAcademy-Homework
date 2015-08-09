@@ -1,0 +1,10 @@
+first is the same
+the second is different
+this line - different. Here are some numbers:
+1
+2
+3
+4
+5
+This is different
+this is NOT

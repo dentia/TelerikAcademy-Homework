@@ -1,0 +1,17 @@
+﻿section {
+    width: 350px;
+}
+
+.requiredField {
+    color: #ff0000;
+}
+
+.submitButton {
+    background:url("images/submit-button.png") no-repeat;
+    background-size: 100% 100%;
+    cursor:pointer;
+    border:none;
+    width: 160px;
+    height: 40px;
+    margin: 25px 100px 5px 100px
+}

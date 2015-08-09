@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculatorStyle.css"/>
+    <script type="text/javascript" src="logic.js"></script>
+</head>
+<body>
+<table id="calculator">
+    <tr>
+        <td colspan="4"><input type="text" disabled="disabled" name="display" id="display"/></td>
+    </tr>
+    <tr>
+        <td><button class="calculatorButton" onclick="addToDisplay('=')">=</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('C') ">C</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('BS') ">BS</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('+') ">+</button></td>
+    </tr>
+    <tr>
+        <td><button class="calculatorButton" onclick="addToDisplay('7')">7</button></td>
+        <td><button class="calculatorButton" onclick="addToDisplay('8')">8</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('9') ">9</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('-')">-</button></td>
+</tr>
+    <tr>
+        <td><button class="calculatorButton" onclick="addToDisplay('4')">4</button></td>
+        <td><button class="calculatorButton" onclick="addToDisplay('5')">5</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('6')">6</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('*')">*</button></td>
+</tr>
+    <tr>
+        <td><button class="calculatorButton" onclick="addToDisplay('1')">1</button></td>
+        <td><button class="calculatorButton" onclick="addToDisplay('2')">2</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('3')">3</button></td>
+        <td><button class="calculatorButton" onclick=" addToDisplay('/')">/</button></td>
+</tr>
+    <tr>
+        <td colspan="2"><button class="calculatorButton" onclick=" addToDisplay('0')">0</button></td>
+        <td colspan=""><button class="calculatorButton" onclick="addToDisplay('00')">00</button></td>
+        <td><button class="calculatorButton" onclick="addToDisplay('.')">.</button></td>
+    </tr>
+</table>
+</body>
+</html>

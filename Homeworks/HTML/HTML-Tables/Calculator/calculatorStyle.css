@@ -1,0 +1,26 @@
+﻿body {
+    background-color: #333333;
+}
+
+#calculator {
+    margin: 50px 50px 50px 50px;
+}
+
+.calculatorButton {
+    width: 100%;
+    height: 40px;
+}
+
+#display {
+    opacity: 0.8;
+    width: 300px;
+    height: 50px;
+    text-align: right;
+}
+
+#calculator button, #display[type="text"] {
+    background-color: #333333;
+    opacity: 0.8;
+    color: #B9DFE6;
+    font-size: 30px;
+}

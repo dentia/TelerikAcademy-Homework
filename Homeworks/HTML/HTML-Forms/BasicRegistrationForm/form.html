@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="registrationFormStyle.css"/>
+</head>
+<body>
+<form id="registrationForm">
+    <table id="registrationFormTable">
+        <tfoot>
+        <tr>
+            <td colspan="2" id="foot">
+                <input type="submit" value="Submit"/>
+                <button onclick="document.getElementById('registrationForm').reset() ">Clear This Form</button>
+            </td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td><label for="lastName">Last name</label></td>
+            <td><input type="text" id="lastName" class="fullWidth"/></td>
+        </tr>
+
+        <tr>
+            <td><label for="firstName">First name</label></td>
+            <td><input type="text" id="firstName" class="fullWidth"/></td>
+        </tr>
+
+        <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea rows="3" id="address" class="fullWidth"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="city">City</label></td>
+            <td>
+                <input type="text" id="city"/>
+                <label for="state">State</label>
+                <input type="text" id="state" class="minWidth"/>
+            </td>
+
+        <tr>
+            <td><label for="zipCode">Zip/Postal Code</label></td>
+            <td><input type="text" id="zipCode" class="minWidth"/></td>
+        </tr>
+
+        <tr>
+            <td><label for="country">Country</label></td>
+            <td>
+                <select id="country" class="fullWidth">
+                    <option value="BG">Bulgaria</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="phone">Phone</label></td>
+            <td>+( <input type="tel" class="minWidth"/> ) <input type="tel" class="minWidth"/> - <input type="tel" id="phone"/></td>
+        </tr>
+
+        <tr>
+            <td><label for="birthDate">Birth date</label></td>
+            <td><input type="date" id="birthDate" class="fullWidth"/></td>
+        </tr>
+
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                <select id="gender" class="fullWidth">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Starting date</label></td>
+            <td>
+                <input type="radio" name="startingDate" value="Summer"/>Summer
+                <input type="radio" name="startingDate" value="Autumn"/>Autumn
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="comment">Comments/Questions</label></td>
+            <td><textarea id="comment" rows="5" class="fullWidth"></textarea></td>
+        </tr>
+
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

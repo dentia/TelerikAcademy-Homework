@@ -1,0 +1,22 @@
+body{
+    background: url("noPause.png") 100% 100%;
+}
+
+#canvas{
+    background: #ffffff;
+    border: 1px solid #000000;
+    display: inline;
+    float: left;
+}
+
+ul{
+    height: 650px;
+    width: 350px;
+    display: inline;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 25px;
+    font-family: 'Consolas';
+    overflow: scroll;
+}

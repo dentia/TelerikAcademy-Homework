@@ -25,7 +25,7 @@ namespace SortThreeNumbers
 
             if (a >= b)
             {
-                if (b >+ c) Print(a, b, c);
+                if (b >= c) Print(a, b, c);
                 else if (c >= a) Print(c, a, b);
                 else Print(a, c, b);
             }

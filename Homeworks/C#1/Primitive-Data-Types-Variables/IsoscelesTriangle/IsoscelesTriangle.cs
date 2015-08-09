@@ -38,7 +38,7 @@ namespace IsoscelesTriangle
                 Console.WriteLine(outerSpace + copy + innerSpace + copy);
             }
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < WIDTH; i++)
             {
                 if (i % 2 == 1) Console.Write(' ');
                 else Console.Write(copy);

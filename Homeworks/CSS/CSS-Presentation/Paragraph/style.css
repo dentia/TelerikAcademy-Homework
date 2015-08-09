@@ -1,0 +1,13 @@
+﻿p {
+    color: #0094ff;
+    font-family: 'Consolas';
+    font-size: small;
+}
+    p:first-line {
+        font-weight: 600;
+    }
+
+    p:first-letter {
+        font-family: 'Pinyon Script', cursive;
+        font-size: xx-large;
+    }

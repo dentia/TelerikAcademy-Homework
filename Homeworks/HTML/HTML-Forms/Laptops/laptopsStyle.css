@@ -1,0 +1,25 @@
+﻿a {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #0094FF;
+    margin-right: 2px;
+}
+
+#laptopTable {
+    border: 1px solid #000000;
+    float: left;
+    display: inline;
+}
+
+#sliderTable {
+    padding: 30px;
+    padding-left: 60px;
+    float: left;
+    display: inline;
+}
+
+#sliderTable td {
+    width: 200px;
+    height: 40px;
+}

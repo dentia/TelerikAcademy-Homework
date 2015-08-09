@@ -6,7 +6,7 @@ namespace PointInCircle
     using System.Linq;
     class PointInCircle
     {
-        const double radius = 5;
+        const double radius = 2;
         const double xY = 0;
         static void Main(string[] args)
         {

@@ -1,0 +1,10 @@
+first is the same
+second - different
+this line is different, but the five lines bellow are the same:
+1
+2
+3
+4
+5
+This line is different than the other
+this is NOT

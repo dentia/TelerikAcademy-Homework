@@ -1,0 +1,62 @@
+﻿#firstPage {
+    width: 20px;
+    height: 20px;
+    background-image: url(images/startPage.png);
+}
+
+#prevPage {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/prevPage.png");
+}
+
+#nextPage {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/nextPage.png");
+}
+
+#lastPage {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/endPage.png");
+}
+
+.pageLink {
+    padding: 3px;
+}
+
+#selectedPage {
+    border: 2px solid #FF953F;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+
+#results {
+    float: right;
+}
+
+thead, tfoot {
+    background-color: #B5B5B5;
+}
+
+tfoot td, thead th {
+    margin: 10px;
+    padding: 10px;
+}
+
+table, table tr, table td {
+    border: 1px solid #555555;
+}
+
+#idInput {
+    width: 70px;
+}
+
+table tbody tr:first-child td {
+    background-color: #EFEFEF;
+}
