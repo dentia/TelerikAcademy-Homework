@@ -65,5 +65,33 @@ namespace Santase.Tests
             Assert.AreEqual(1, cards.Count);
 
         }
+        
+        [Test]
+        public void ExpectTheTrumpCardToBeTakenLast()
+        {
+            var deck = new Deck();
+            var trumpCard = deck.GetTrumpCard;
+            Card lastCard = deck.GetNextCard();
+
+            while (deck.CardsLeft > 0)
+            {
+                lastCard = deck.GetNextCard();
+            }
+
+            Assert.AreSame(trumpCard, lastCard);
+        }
+
+        [Test]
+        public void ExpectTheTrumpCardToBeChanged()
+        {
+            var deck = new Deck();
+            var initialTrumpCard = deck.GetTrumpCard;
+            var newTrumpCard = deck.GetNextCard();
+
+            deck.ChangeTrumpCard(newTrumpCard);
+
+            Assert.AreNotSame(initialTrumpCard, deck.GetTrumpCard, "The trump card stayed the same");
+            Assert.AreSame(newTrumpCard, deck.GetTrumpCard, "The trump card is not the new one");
+        }
     }
 }
