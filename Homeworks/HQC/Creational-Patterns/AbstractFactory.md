@@ -18,7 +18,7 @@ Abstract Factory Pattern-ът се използва при системи, ко�
 ## Конкретна имплементация
 Car rental service, който си служи с различни производители на автомобили:
 
-![alt text](Creational-Patterns/schemes/CarRentalService.png)
+![alt text](schemes/CarRentalService.png)
 
 ###### Abstract car
 ~~~c#
