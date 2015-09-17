@@ -1,6 +1,8 @@
 # Composite
 ### Structural Design Pattern
 
+![pattern structure](Images/Composite-Structure.png)
+
 ###### FileSystemEntity
 ~~~c#
 public abstract class FileSystemEntity
