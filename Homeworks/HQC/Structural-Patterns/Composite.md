@@ -107,4 +107,4 @@ static void Main()
 ~~~
 
 ###### Output
-![demo output](Composite-Output.png)
+![demo output](Images/Composite-Output.png)
