@@ -90,3 +90,6 @@ static void Main()
     smokerCar.Display();
 }
 ~~~
+
+###### Output
+![demo output](Images/Decorator-Output.png)
