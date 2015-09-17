@@ -107,4 +107,4 @@ static void Main()
 ~~~
 
 ###### Output
-![demo output](Structural-Pattern/Composite-Output.png)
+![demo output](Composite-Output.png)
