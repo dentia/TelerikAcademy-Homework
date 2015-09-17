@@ -105,3 +105,6 @@ static void Main()
     programFilesFolder.Print(0);
 }
 ~~~
+
+###### Output
+![demo output](Structural-Pattern/Composite-Output.png)
