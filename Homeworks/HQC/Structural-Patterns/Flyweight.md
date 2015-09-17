@@ -133,3 +133,6 @@ static void Main()
     Console.WriteLine();
 }
 ~~~
+
+###### Output
+![demo output](Images/Flyweight-Output.png)
