@@ -1,6 +1,8 @@
 # Flyweight
 ### Structural Design Pattern
 
+![pattern structure](Images/Flyweight-Structure.png)
+
 ###### Symbol
 ~~~c#
 public abstract class Symbol
