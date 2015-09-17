@@ -1,8 +1,18 @@
 # Flyweight
 ### Structural Design Pattern
 
+#### Обобщение
+Flyweight Pattern-ът е шаблон, който се използва в обектно-ориентираното програмиране. Използва се за споделяне на сложни и бавни за създаване (ресурсоемки) обекти.
+
+#### Структура
+* Flyweight – интерфейсът на обектите;
+* Concrete Flyweight;
+* Flyweight Factory - осигурява достъпа до Flyweight обектите. Създава обект, ако конкретният още не е използван/създаден или връща вече създаден обект от същия тип;
+
+
 ![pattern structure](Images/Flyweight-Structure.png)
 
+#### Demo
 ###### Symbol
 ~~~c#
 public abstract class Symbol
