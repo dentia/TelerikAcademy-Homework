@@ -1,6 +1,6 @@
-﻿using System;
-namespace Sepcification
+﻿namespace Sepcification
 {
+    using System;
     using System.Linq;
 
     using Cards;

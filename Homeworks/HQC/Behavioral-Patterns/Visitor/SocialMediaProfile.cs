@@ -1,6 +1,6 @@
 ﻿namespace Visitor
 {
-    using Visitor.Visitors;
+    using Visitors;
 
     public class SocialMediaProfile
     {

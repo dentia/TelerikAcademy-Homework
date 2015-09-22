@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace ChainOfResponsibility.Cards
+﻿namespace ChainOfResponsibility.Cards
 {
+    using System.Collections.Generic;
+
     public class Hand
     {
         public Hand()
