@@ -2,14 +2,16 @@
 {
     using System.Collections.Generic;
 
-    class RankCardComparer : EqualityComparer<Cards.Card>
+    using Cards;
+
+    class RankCardComparer : IEqualityComparer<Card>
     {
-        public override bool Equals(Cards.Card x, Cards.Card y)
+        public bool Equals(Card x, Card y)
         {
             return (x.Rank == y.Rank);
         }
 
-        public override int GetHashCode(Cards.Card obj)
+        public int GetHashCode(Card obj)
         {
             return obj.Rank.GetHashCode();
         }

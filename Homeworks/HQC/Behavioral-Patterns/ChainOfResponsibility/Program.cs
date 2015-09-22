@@ -10,10 +10,10 @@
             var combinationChecker = GetChecker();
             
             var hand = new Hand()
-                .AddCard(new Card(Suit.Clubs, Rank.Ace))
-                .AddCard(new Card(Suit.Diamonds, Rank.Ace))
+                .AddCard(new Card(Suit.Clubs, Rank.Two))
+                .AddCard(new Card(Suit.Diamonds, Rank.Two))
                 .AddCard(new Card(Suit.Clubs, Rank.Queen))
-                .AddCard(new Card(Suit.Diamonds, Rank.King))
+                .AddCard(new Card(Suit.Diamonds, Rank.Queen))
                 .AddCard(new Card(Suit.Clubs, Rank.Ten));
 
             var checkerHelper = new CheckerHelper();
