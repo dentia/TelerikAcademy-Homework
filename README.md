@@ -67,7 +67,7 @@ Telerik Academy 2015/2016
 * [CSS Layout](Homeworks/CSS/CSS-Layout)
 * [CSS Preprocessors](Homeworks/CSS/CSS-Processors)
 
-[Go to top](#telerikacademy)
+[*Go to top* ^](#telerikacademy)
 
 ---
 
