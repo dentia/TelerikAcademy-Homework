@@ -21,6 +21,8 @@ Telerik Academy 2015/2016
 * [Loops](Homeworks/C%231/Loops)
 * [Console Input/Output](Homeworks/C%231/Console-Input-Output)
 
+[*Go to top* ^](#telerikacademy)
+
 ---
 
 ###### [C# Part 2](Homeworks/C%232)
@@ -33,6 +35,8 @@ Telerik Academy 2015/2016
 * [Exception Handling](Homeworks/C%232/Exception-Handling)
 * [Text Files](Homeworks/C%232/Text-Files)
 
+[*Go to top* ^](#telerikacademy)
+
 ---
 
 ###### [C# OOP](Homeworks/OOP)
@@ -43,6 +47,8 @@ Telerik Academy 2015/2016
 * [OOP Fundamental Principles - Part 2](Homeworks/OOP/OOP-Fundamental-Principles-SP)
 * [Common Type System](Homeworks/OOP/Common-Type-System)
 
+[*Go to top* ^](#telerikacademy)
+
 ---
 
 ###### [HTML](Homeworks/HTML)
@@ -51,6 +57,8 @@ Telerik Academy 2015/2016
 * [Forms](Homeworks/HTML/HTML-Forms)
 * [Semantic HTML](Homeworks/HTML/HTML-Semantic)
 
+[*Go to top* ^](#telerikacademy)
+
 ---
 
 ###### [CSS](Homeworks/CSS)
@@ -58,6 +66,8 @@ Telerik Academy 2015/2016
 * [CSS Presentation](Homeworks/CSS/CSS-Presentation)
 * [CSS Layout](Homeworks/CSS/CSS-Layout)
 * [CSS Preprocessors](Homeworks/CSS/CSS-Processors)
+
+[Go to top](#telerikacademy)
 
 ---
 
@@ -73,6 +83,8 @@ Telerik Academy 2015/2016
 * [Strings](Homeworks/JS-FUNDAMENTALS/Strings)
 * [Regular Expressions](Homeworks/JS-FUNDAMENTALS/Regular-Expressions)
 
+[*Go to top* ^](#telerikacademy)
+
 ---
 
 ###### [JS OOP](Homeworks/JS-OOP)
@@ -81,6 +93,8 @@ Telerik Academy 2015/2016
 * [Classical Inheritance](Homeworks/JS-OOP/Classical-Inheritance)
 * [Prototype-based inheritance](Homeworks/JS-OOP/Prototypal-Inheritance)
 * [Modules and Patterns](Homeworks/JS-OOP/Modules-And-Patterns)
+
+[*Go to top* ^](#telerikacademy)
 
 ---
 
@@ -93,10 +107,14 @@ Telerik Academy 2015/2016
 * [jQuery Plugins](Homeworks/JS-UI%26DOM/jQuery-Plugins)
 * [HTML Templates](Homeworks/JS-UI%26DOM/HTML-Templates)
 
+[*Go to top* ^](#telerikacademy)
+
 ---
 
 ###### [JS APPS](Homeworks/JS-APPS)
 * [Underscore](Homeworks/JS-APPS/Underscore)
+
+[*Go to top* ^](#telerikacademy)
 
 ---
 
@@ -117,5 +135,7 @@ Telerik Academy 2015/2016
 * [Creational Design Patterns](Homeworks/HQC/Creational-Patterns)
 * [Structural Design Patterns](Homeworks/HQC/Structural-Patterns)
 * [Behavioral Design Patterns](Homeworks/HQC/Behavioral-Patterns)
+
+[*Go to top* ^](#telerikacademy)
 
 ---
