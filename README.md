@@ -93,6 +93,8 @@ Telerik Academy 2015/2016
 * [jQuery Plugins](Homeworks/JS-UI%26DOM/jQuery-Plugins)
 * [HTML Templates](Homeworks/JS-UI%26DOM/HTML-Templates)
 
+---
+
 ###### [JS APPS](Homeworks/JS-APPS)
 * [Underscore](Homeworks/JS-APPS/Underscore)
 
