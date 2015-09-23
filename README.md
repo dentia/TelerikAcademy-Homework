@@ -1,7 +1,15 @@
 # TelerikAcademy
 Telerik Academy 2015/2016
 
-[C# Part 1](#c-part-1)
+| C# Programming          | Web Design and UI                   |
+|:-----------------------:|:-----------------------------------:|
+| [C# Part 1](#c-part-1)  | [HTML](#html)                       |
+| [C# Part 2](#c-part-2)  | [CSS](#css)                         |
+| [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |
+| [HQC](#hqc)             |[JS OOP](#js-oop)                    |
+|                         |[JS UI&DOM](#js-uidom)               |
+|                         |[JS APPS](#js-apps)                  |
+
 
 ---
 
