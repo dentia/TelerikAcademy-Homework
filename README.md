@@ -1,14 +1,14 @@
 # TelerikAcademy
 Telerik Academy 2015/2016
 
-| C# Programming          | Web Design and UI                   |
-|:-----------------------:|:-----------------------------------:|
-| [C# Part 1](#c-part-1)  | [HTML](#html)                       |
-| [C# Part 2](#c-part-2)  | [CSS](#css)                         |
-| [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |
-| [HQC](#hqc)             |[JS OOP](#js-oop)                    |
-|                         |[JS UI&DOM](#js-uidom)               |
-|                         |[JS APPS](#js-apps)                  |
+| C# Programming          | Web Design and UI                   | Software Technologies |
+|:-----------------------:|:-----------------------------------:|:---------------------:|
+| [C# Part 1](#c-part-1)  | [HTML](#html)                       | [DB](#db)             |
+| [C# Part 2](#c-part-2)  | [CSS](#css)                         |                       |
+| [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |                       |
+| [HQC](#hqc)             | [JS OOP](#js-oop)                   |                       |
+|                         | [JS UI&DOM](#js-uidom)              |                       |
+|                         | [JS APPS](#js-apps)                 |                       |
 
 
 ---
@@ -135,6 +135,14 @@ Telerik Academy 2015/2016
 * [Creational Design Patterns](Homeworks/HQC/Creational-Patterns)
 * [Structural Design Patterns](Homeworks/HQC/Structural-Patterns)
 * [Behavioral Design Patterns](Homeworks/HQC/Behavioral-Patterns)
+
+[*Go to top* ^](#telerikacademy)
+
+
+---
+
+###### [DB](Homeworks/DB)
+* [XML Basics](Homeworks/DB/XML-Basics)
 
 [*Go to top* ^](#telerikacademy)
 
