@@ -143,6 +143,7 @@ Telerik Academy 2015/2016
 
 ###### [DB](Homeworks/DB)
 * [XML Basics](Homeworks/DB/XML-Basics)
+* [XML Parsers](Homeworks/DB/XML-Parsers)
 
 [*Go to top* ^](#telerikacademy)
 
