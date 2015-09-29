@@ -12,32 +12,38 @@
 
     public class TaskSolver
     {
-        public IEnumerable<News> GetNews(JObject json)
+        public IEnumerable<Video> GetVideos(JObject json)
         {
-            var news = json["rss"]["channel"]["item"]
-                .Select(i => JsonConvert.DeserializeObject<News>(i.ToString()));
+            var videos = json["feed"]["entry"]
+                .Select(entry => JsonConvert.DeserializeObject<Video>(entry.ToString()));
 
-            return news;
+            return videos;
         }
 
-        public string GetHtmlString(IEnumerable<News> news)
+        public string GetHtmlString(IEnumerable<Video> videos)
         {
             StringBuilder html = new StringBuilder();
 
-            html.Append("<!DOCTYPE html><html><body><ul>");
-            foreach (var newsItem in news)
+            html.Append("<!DOCTYPE html><html><body>");
+            foreach (var video in videos)
             {
-                html.AppendFormat("<li><a href={0}>{1}</a> ({2})</li>", newsItem.Link, newsItem.Title, newsItem.PublishedDate);
+                html.AppendFormat("<div style=\"float:left; width: 420px; height: 450px; padding:10px; " +
+                                  "margin:5px; background-color:grey; border-radius:10px\">" +
+                                  "<iframe width=\"420\" height=\"345\" " +
+                                  "src=\"http://www.youtube.com/embed/{1}?autoplay=0\" " +
+                                  "frameborder=\"0\" allowfullscreen></iframe>" +
+                                  "<h3>{2}</h3><a href=\"{0}\">Go to YouTube</a></div>", 
+                                  video.Link.Href, video.Id, video.Title);
             }
-            html.Append("</ul></body></html>");
+            html.Append("</body></html>");
 
             return html.ToString();
         }
 
-        public void DownloadRss(string url)
+        public void DownloadRss(string url, string fileName)
         {
             WebClient myWebClient = new WebClient { Encoding = Encoding.UTF8 };
-            myWebClient.DownloadFile(url, "news.xml");
+            myWebClient.DownloadFile(url, fileName);
         }
 
         public XmlDocument GetXml(string path)
@@ -56,10 +62,10 @@
             return jsonObj;
         }
 
-        public IEnumerable<JToken> GetNewsTitles(JObject jsonObj)
+        public IEnumerable<JToken> GetVideosTitles(JObject jsonObj)
         {
-            return jsonObj["rss"]["channel"]["item"]
-                .Select(item => item["title"]);
+            return jsonObj["feed"]["entry"]
+                .Select(entry => entry["title"]);
         }
 
         public void PrintTitles(IEnumerable<JToken> titles)

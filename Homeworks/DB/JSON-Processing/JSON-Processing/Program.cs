@@ -5,8 +5,8 @@
 
     class Program
     {
-        private const string RssLink = "http://www.dnevnik.bg/rss/?page=index";
-        private const string XmlPath = "news.xml";
+        private const string RssLink = "https://www.youtube.com/feeds/videos.xml?channel_id=UCLC-vbm7OWvpbqzXaoAMGGw";
+        private const string XmlPath = "videos.xml";
         private const string HtmlName = "index.html";
 
         static void Main()
@@ -15,13 +15,13 @@
 
             var taskSolver = new TaskSolver();
 
-            taskSolver.DownloadRss(RssLink);
+            taskSolver.DownloadRss(RssLink, XmlPath);
             var xmlDoc = taskSolver.GetXml(XmlPath);
             var jsonObj = taskSolver.GetJsonObject(xmlDoc);
-            var titles = taskSolver.GetNewsTitles(jsonObj);
+            var titles = taskSolver.GetVideosTitles(jsonObj);
             taskSolver.PrintTitles(titles);
             
-            var news = taskSolver.GetNews(jsonObj);
+            var news = taskSolver.GetVideos(jsonObj);
             var html = taskSolver.GetHtmlString(news);
             taskSolver.SaveHtml(html, HtmlName);
         }
