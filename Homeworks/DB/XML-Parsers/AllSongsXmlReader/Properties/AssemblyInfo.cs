@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DomParserAndXPath")]
+[assembly: AssemblyTitle("AllSongsXmlReader")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DomParserAndXPath")]
+[assembly: AssemblyProduct("AllSongsXmlReader")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7e19ea0f-306d-4fac-b0c1-c6c23d18f8ca")]
+[assembly: Guid("117c0b69-4df4-4547-8a9d-5b019786a539")]
 
 // Version information for an assembly consists of the following four values:
 //
