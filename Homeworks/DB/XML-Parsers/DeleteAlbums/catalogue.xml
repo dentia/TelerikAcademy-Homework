@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<catalogue>
+  <album>
+    <name>The Slim Shady LP</name>
+    <artist>Eminem</artist>
+    <year>1999</year>
+    <producer>Dr. Dre</producer>
+    <price>21.88</price>
+    <songs>
+      <song>
+        <title>My Name Is</title>
+        <duration>4:28</duration>
+      </song>
+      
+      <song>
+        <title>Role Model</title>
+        <duration>3:25</duration>
+      </song>
+      
+      <song>
+        <title>Just Don't Give a Fuck</title>
+        <duration>4:02</duration>
+      </song>
+    </songs>
+  </album>
+  
+  <album>
+    <name>All Eyez on Me</name>
+    <artist>2Pac</artist>
+    <year>1996</year>
+    <producer>Suge Knight</producer>
+    <price>13.99</price>
+    <songs>
+      <song>
+        <title>California Love</title>
+        <duration>6:25</duration>
+      </song>
+      
+      <song>
+        <title>Can't C Me</title>
+        <duration>5:30</duration>
+      </song>
+      
+      <song>
+        <title>All Eyez on Me</title>
+        <duration>5:08</duration>
+      </song>
+    </songs>
+  </album>
+  
+  <album>
+    <name>Midnight Café</name>
+    <artist>Smokie</artist>
+    <year>1976</year>
+    <producer>Mike Chapman</producer>
+    <price>13.15</price>
+    <songs>
+      <song>
+        <title>What Can I Do</title>
+        <duration>3:35</duration>
+      </song>
+    </songs>
+  </album>
+
+  <album>
+    <name>The Marshall Mathers LP 2</name>
+    <artist>Eminem</artist>
+    <year>2013</year>
+    <producer>Aalias</producer>
+    <price>19.98</price>
+    <songs>
+      <song>
+        <title>Berzerk</title>
+        <duration>3:58</duration>
+      </song>
+    
+     <song>
+        <title>Rap God</title>
+        <duration>6:03</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

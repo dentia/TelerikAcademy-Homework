@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album>
+    <name>The Slim Shady LP</name>
+    <artist>Eminem</artist>
+    <year>19959</year>
+    <producer>Dr. Dre</producer>
+    <price>21.88</price>
+    <songs>
+      <song>
+        <title>My Name Is</title>
+        <duration>4:28</duration>
+      </song>
+
+      <song>
+        <title>Just Don't Give a Fuck</title>
+        <duration>4:02</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

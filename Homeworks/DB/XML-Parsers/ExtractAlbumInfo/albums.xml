@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>The Slim Shady LP</name>
+    <artist>Eminem</artist>
+  </album>
+  <album>
+    <name>All Eyez on Me</name>
+    <artist>2Pac</artist>
+  </album>
+  <album>
+    <name>Midnight Café</name>
+    <artist>Smokie</artist>
+  </album>
+  <album>
+    <name>The Marshall Mathers LP 2</name>
+    <artist>Eminem</artist>
+  </album>
+</albums>
