@@ -21,8 +21,8 @@
             var titles = taskSolver.GetVideosTitles(jsonObj);
             taskSolver.PrintTitles(titles);
             
-            var news = taskSolver.GetVideos(jsonObj);
-            var html = taskSolver.GetHtmlString(news);
+            var videos = taskSolver.GetVideos(jsonObj);
+            var html = taskSolver.GetHtmlString(videos);
             taskSolver.SaveHtml(html, HtmlName);
         }
     }
