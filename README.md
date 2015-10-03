@@ -145,6 +145,7 @@ Telerik Academy 2015/2016
 * [XML Basics](Homeworks/DB/XML-Basics)
 * [XML Parsers](Homeworks/DB/XML-Parsers)
 * [JSON Processing](Homeworks/DB/JSON-Processing)
+* [SQL Server And MySQL - Introduction](Homeworks/DB/SQL-Server-And-MySQL-Introduction)
 
 [*Go to top* ^](#telerikacademy)
 
