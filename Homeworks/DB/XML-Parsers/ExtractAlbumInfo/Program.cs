@@ -1,4 +1,6 @@
-﻿namespace ExtractAlbumInfo
+﻿using System.IO;
+
+namespace ExtractAlbumInfo
 {
     using System;
     using System.Text;
@@ -17,7 +19,7 @@
                 writer.WriteStartDocument();
                 writer.WriteStartElement("albums");
 
-                using (XmlReader reader = XmlReader.Create("../../catalogue.xml"))
+                using (XmlReader reader = XmlReader.Create("../../../catalogue.xml"))
                 {
                     while (reader.Read())
                     {
@@ -40,7 +42,9 @@
                 writer.WriteEndDocument();
             }
 
-            Console.WriteLine("albums saved as albums.xml");
+            var currentDir = Directory.GetCurrentDirectory();
+            var savedDir = currentDir.Substring(0, currentDir.IndexOf("bin\\Debug"));
+            Console.WriteLine("albums saved as " + savedDir + "albums.xml");
         }
     }
 }

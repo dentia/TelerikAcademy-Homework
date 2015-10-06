@@ -3809,6 +3809,12 @@
         <file name="50d" ext=".svg" />
         <file name="50n" ext=".svg" />
     </dir>
+    <dir path="C:\Users\dentia\Desktop\XML-Basics">
+        <file name="students" ext=".xml" />
+        <file name="students" ext=".xsd" />
+        <file name="style" ext=".xslt" />
+        <file name="txt_tasks" ext=".txt" />
+    </dir>
     <dir path="C:\Users\dentia\Desktop\XML-Parsers">
         <dir path="C:\Users\dentia\Desktop\XML-Parsers\bin">
             <dir path="C:\Users\dentia\Desktop\XML-Parsers\bin\Debug">
@@ -3860,7 +3866,9 @@
     <file name="hqc" ext=".png" />
     <file name="LINK_TO_THE_REPO" ext=".txt" />
     <file name="repoLink" ext=".txt" />
+    <file name="Shortcut to SecureDownloadManager.exe" ext=".lnk" />
     <file name="sql-injection-tshirt-zoom" ext=".png" />
     <file name="sqlInjection" ext=".png" />
     <file name="Untitled" ext=".png" />
+    <file name="XML-Basics" ext=".zip" />
 </Desktop>

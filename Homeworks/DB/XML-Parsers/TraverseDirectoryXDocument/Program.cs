@@ -10,7 +10,10 @@
         {
             var desktop = Traverse(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
             desktop.Save("../../dir.xml");
-            Console.WriteLine("result saved as dir.xml");
+
+            var currentDir = Directory.GetCurrentDirectory();
+            var savedDir = currentDir.Substring(0, currentDir.IndexOf("bin\\Debug"));
+            Console.WriteLine("result saved as " + savedDir + "dir.xml");
         }
 
         static XElement Traverse(string dir)

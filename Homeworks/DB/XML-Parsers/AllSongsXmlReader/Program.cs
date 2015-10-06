@@ -7,7 +7,7 @@
     {
         static void Main()
         {
-            using (XmlReader reader = new XmlTextReader("../../catalogue.xml"))
+            using (XmlReader reader = new XmlTextReader("../../../catalogue.xml"))
             {
                 while (reader.Read())
                 {

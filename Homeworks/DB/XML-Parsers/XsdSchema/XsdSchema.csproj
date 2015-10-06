@@ -54,7 +54,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="catalogue.xml" />
     <Content Include="invalidCatalogue.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

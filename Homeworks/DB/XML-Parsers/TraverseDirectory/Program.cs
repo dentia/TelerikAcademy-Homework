@@ -22,8 +22,10 @@
                 Traverse(desktopPath, writer);
                 writer.WriteEndDocument();
             }
-
-            Console.WriteLine("result saved as dir.xml");
+            
+            var currentDir = Directory.GetCurrentDirectory();
+            var savedDir = currentDir.Substring(0, currentDir.IndexOf("bin\\Debug"));
+            Console.WriteLine("result saved as " + savedDir + "dir.xml");
         }
 
         static void Traverse(string dir, XmlTextWriter writer)

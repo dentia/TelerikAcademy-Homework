@@ -11,7 +11,7 @@
             var schema = new XmlSchemaSet();
             schema.Add(string.Empty, "../../catalogue.xsd");
 
-            XDocument doc = XDocument.Load("../../catalogue.xml");
+            XDocument doc = XDocument.Load("../../../catalogue.xml");
             XDocument invalidDoc = XDocument.Load("../../invalidCatalogue.xml");
             
             PrintValidationResult(doc, schema, "catalogue.xml");

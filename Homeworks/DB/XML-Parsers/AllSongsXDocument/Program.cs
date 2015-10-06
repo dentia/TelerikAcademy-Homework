@@ -9,7 +9,7 @@ namespace XDocument
     {
         static void Main()
         {
-            var doc = XDocument.Load("../../catalogue.xml");
+            var doc = XDocument.Load("../../../catalogue.xml");
             var albums = doc.Element("catalogue")
                 .Elements("album");
 

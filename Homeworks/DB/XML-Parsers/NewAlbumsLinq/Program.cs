@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            var doc = XDocument.Load("../../catalogue.xml");
+            var doc = XDocument.Load("../../../catalogue.xml");
 
             var albumNames = from album in doc.Descendants("album")
                 where int.Parse(album.Element("year").Value) > 1996

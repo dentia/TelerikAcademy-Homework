@@ -8,7 +8,7 @@
         static void Main()
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("../../catalogue.xml");
+            doc.Load("../../../catalogue.xml");
             var query = "/catalogue/album[year>1996]/name";
 
             var albumNames = doc.SelectNodes(query);

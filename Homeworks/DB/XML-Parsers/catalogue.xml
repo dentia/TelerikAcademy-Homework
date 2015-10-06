@@ -80,4 +80,23 @@
       </song>
     </songs>
   </album>
+  
+  <album>
+    <name>Waterloo</name>
+    <artist>ABBA</artist>
+    <year>1974</year>
+    <producer>Benny Andersson</producer>
+    <price>34.00</price>
+    <songs>
+      <song>
+        <title>Waterloo</title>
+        <duration>2:45</duration>
+      </song>
+    
+     <song>
+        <title>Hasta Mañana</title>
+        <duration>3:05</duration>
+      </song>
+    </songs>
+  </album>
 </catalogue>

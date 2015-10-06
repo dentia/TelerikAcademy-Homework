@@ -9,7 +9,7 @@
         static void Main()
         {
             var doc = new XmlDocument();
-            doc.Load("../../catalogue.xml");
+            doc.Load("../../../catalogue.xml");
             var root = doc.DocumentElement;
 
             foreach (var pair in GetUniqueArtists(doc))
