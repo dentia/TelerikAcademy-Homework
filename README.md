@@ -147,6 +147,7 @@ Telerik Academy 2015/2016
 * [JSON Processing](Homeworks/DB/JSON-Processing)
 * [SQL Server And MySQL - Introduction](Homeworks/DB/SQL-Server-And-MySQL-Introduction)
 * [SQL Intro](Homeworks/DB/SQL-Intro)
+* [Database Modeling](Homeworks/DB/Database-Modeling)
 
 [*Go to top* ^](#telerikacademy)
 
