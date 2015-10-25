@@ -7,7 +7,7 @@ Telerik Academy 2015/2016
 | [C# Part 2](#c-part-2)  | [CSS](#css)                         |                       |
 | [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |                       |
 | [HQC](#hqc)             | [JS OOP](#js-oop)                   |                       |
-|                         | [JS UI&DOM](#js-uidom)              |                       |
+| [DSA](#dsa)             | [JS UI&DOM](#js-uidom)              |                       |
 |                         | [JS APPS](#js-apps)                 |                       |
 
 
@@ -149,6 +149,13 @@ Telerik Academy 2015/2016
 * [Database Modeling](Homeworks/DB/Database-Modeling)
 * [SQL Intro](Homeworks/DB/SQL-Intro)
 * [SQL Advanced](Homeworks/DB/SQL-Advanced)
+
+[*Go to top* ^](#telerikacademy)
+
+---
+
+###### [DSA](Homeworks/DSA)
+* [Linear Data Structures](Homeworks/DSA/Linear-Data-Structures)
 
 [*Go to top* ^](#telerikacademy)
 
