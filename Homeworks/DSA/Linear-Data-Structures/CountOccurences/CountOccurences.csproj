@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E644862-74A2-42CC-8D2B-8B670F4F7C51}</ProjectGuid>
+    <ProjectGuid>{E649E0D8-3AAB-4B93-9ED4-B5541C8AC1DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CountOccurences</RootNamespace>
@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountOccurences.cs" />
+    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{88e3d38a-8a8a-47cd-b651-9a938ad8ceb4}</Project>
-      <Name>Common</Name>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{9eac3157-87a0-45a2-a6d3-7fd686323a67}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

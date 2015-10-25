@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D1DD674-2C73-484D-906E-FDA7AF1A33F8}</ProjectGuid>
+    <ProjectGuid>{8A7F9B05-179D-4963-95E4-9DD30276FC09}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RemoveNegativeNumbers</RootNamespace>
@@ -41,16 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RemoveNegativeNumbers.cs" />
+    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{88e3d38a-8a8a-47cd-b651-9a938ad8ceb4}</Project>
-      <Name>Common</Name>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{9eac3157-87a0-45a2-a6d3-7fd686323a67}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{45D7E720-8DE2-4495-974D-9A85453132D1}</ProjectGuid>
+    <ProjectGuid>{CD197DB6-B1AA-4735-B910-6CCD41E94F3C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ShortestOperationSequence</RootNamespace>
@@ -41,11 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ShortestOperationSequence.cs" />
+    <Compile Include="OperationProcessor\DoubleOperation.cs" />
+    <Compile Include="OperationProcessor\IOperationProcessor.cs" />
+    <Compile Include="OperationProcessor\PlusOneOperation.cs" />
+    <Compile Include="OperationProcessor\PlusTwoOperation.cs" />
+    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{9eac3157-87a0-45a2-a6d3-7fd686323a67}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
