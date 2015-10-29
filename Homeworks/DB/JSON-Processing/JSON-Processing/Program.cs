@@ -13,17 +13,15 @@
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            var taskSolver = new TaskSolver();
-
-            taskSolver.DownloadRss(RssLink, XmlPath);
-            var xmlDoc = taskSolver.GetXml(XmlPath);
-            var jsonObj = taskSolver.GetJsonObject(xmlDoc);
-            var titles = taskSolver.GetVideosTitles(jsonObj);
-            taskSolver.PrintTitles(titles);
+            TaskSolver.DownloadRss(RssLink, XmlPath);
+            var xmlDoc = TaskSolver.GetXml(XmlPath);
+            var jsonObj = TaskSolver.GetJsonObject(xmlDoc);
+            var titles = TaskSolver.GetVideosTitles(jsonObj);
+            TaskSolver.PrintTitles(titles);
             
-            var videos = taskSolver.GetVideos(jsonObj);
-            var html = taskSolver.GetHtmlString(videos);
-            taskSolver.SaveHtml(html, HtmlName);
+            var videos = TaskSolver.GetVideos(jsonObj);
+            var html = TaskSolver.GetHtmlString(videos);
+            TaskSolver.SaveHtml(html, HtmlName);
         }
     }
 }
