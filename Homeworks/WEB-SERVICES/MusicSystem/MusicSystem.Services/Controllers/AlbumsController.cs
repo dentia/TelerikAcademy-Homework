@@ -6,7 +6,9 @@
     using MusicSystem.Data.Repositories;
     using MusicSystem.Models;
     using MusicSystem.Services.Models;
+    using System.Web.Http.Cors;
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AlbumsController : ApiController
     {
         private readonly IMusicSystemData data;
@@ -18,19 +20,45 @@
 
         public IHttpActionResult Get()
         {
-            return this.Ok(this.data.Albums.All().ToList());
+            return this.Ok(this.data.Albums.All().Select(a =>
+            new
+            {
+                Id = a.Id,
+                Name = a.Name,
+                Year = a.Year,
+                Producer = a.Producer,
+                Artists = a.Artists.Select(art =>
+                new
+                {
+                    Name = art.Name,
+                    Country = art.Country
+                }),
+                Songs = a.Songs
+            }));
         }
 
         public IHttpActionResult Get(int id)
         {
-            var country = this.data.Albums.Find(id);
+            var album = this.data.Albums.Find(id);
 
-            if (country == null)
+            if (album == null)
             {
                 return this.BadRequest("No such album can be found.");
             }
 
-            return this.Ok(country);
+            return this.Ok(new
+            {
+                Name = album.Name,
+                Year = album.Year,
+                Producer = album.Producer,
+                Artists = album.Artists.Select(art =>
+                new
+                {
+                    Name = art.Name,
+                    Country = art.Country
+                }),
+                Songs = album.Songs
+            });
         }
 
         public IHttpActionResult Post([FromBody]AlbumDataModel model)
@@ -52,11 +80,9 @@
                 Year = model.Year
             };
 
-            album = this.AddSongsToAlbum(model.SongIds, album);
-
-            if (album == null)
+            if (AddArtistsToAlbum(model.ArtistIds, album) == null || AddSongsToAlbum(model.SongIds, album) == null)
             {
-                return this.BadRequest("No such song can be found.");
+                return this.BadRequest("No such song/artist can be found.");
             }
 
             this.data.Albums.Add(album);
@@ -87,12 +113,10 @@
             album.Name = model.Name;
             album.Year = model.Year;
             album.ProducerId = model.ProducerId;
-
-            album = this.AddSongsToAlbum(model.SongIds, album);
-
-            if (album == null)
+            
+            if (AddArtistsToAlbum(model.ArtistIds,album) == null || AddSongsToAlbum(model.SongIds, album) == null)
             {
-                return this.BadRequest("No such song can be found.");
+                return this.BadRequest("No such song/artist can be found.");
             }
 
             this.data.Albums.Update(album);
@@ -122,6 +146,25 @@
                 }
 
                 album.Songs.Add(songToAdd);
+            }
+
+            return album;
+        }
+
+        private Album AddArtistsToAlbum(int[] artistIds, Album album)
+        {
+            album.Artists.Clear();
+
+            foreach (var artistId in artistIds)
+            {
+                var artistToAdd = this.data.Artists.Find(artistId);
+
+                if (artistToAdd == null)
+                {
+                    return null;
+                }
+
+                album.Artists.Add(artistToAdd);
             }
 
             return album;

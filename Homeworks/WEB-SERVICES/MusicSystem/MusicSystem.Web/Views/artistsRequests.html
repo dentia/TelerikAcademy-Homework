@@ -1,0 +1,46 @@
+﻿<div class="col-md-12 panel-body">
+    <a id="btn-get" class="btn btn-info col-md-12">GET</a>
+</div>
+<div class="col-md-12 panel-body">
+    <input id="p-name" class="input-lg col-md-6" type="text" placeholder="NAME" />
+    <input id="p-country" class="input-lg col-md-6" type="number" placeholder="COUTRY ID" />
+    <a id="btn-post" class="col-md-12 btn btn-success">POST</a>
+</div>
+<div class="col-md-12 panel-body">
+    <input id="d-id" class="input-lg col-md-12" type="number" placeholder="ARTIST ID" />
+    <a id="btn-del" class="btn btn-danger col-md-12">DELETE</a>
+</div>
+
+<script>
+    $('#btn-post').click(function () {
+        var name = $("#p-name").val(),
+            countryId = $('#p-country').val();
+
+        var postData = {
+            Name: name,
+            CountryId: countryId
+        };
+
+        jsonRequester.post('http://localhost:64320/api/Artists', { data: postData })
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+
+    $('#btn-get').click(function () {
+        jsonRequester.get('http://localhost:64320/api/Artists')
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+
+    $('#btn-del').click(function () {
+        var id = $("#d-id").val();
+
+        jsonRequester.del('http://localhost:64320/api/Artists/' + id)
+        .then(function (resp) {
+           $('#result').text(JSON.stringify(resp));
+        });
+    });
+</script>
+

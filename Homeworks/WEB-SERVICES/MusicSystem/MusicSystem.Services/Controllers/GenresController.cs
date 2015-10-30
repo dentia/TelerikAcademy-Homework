@@ -5,7 +5,9 @@
     using MusicSystem.Data.Repositories;
     using MusicSystem.Models;
     using MusicSystem.Services.Models;
+    using System.Web.Http.Cors;
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class GenresController : ApiController
     {
         private readonly IMusicSystemData data;

@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSystem.Models", "MusicSystem.Models\MusicSystem.Models.csproj", "{E9CC5B4B-BC19-4215-AF9F-03D23843A670}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSystem.Data", "MusicSystem.Data\MusicSystem.Data.csproj", "{6994BFB0-8145-4BD6-827F-264B6B44EBFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSystem.Services", "MusicSystem.Services\MusicSystem.Services.csproj", "{874373E0-2B70-4D68-96B0-19EDB43F4702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSystem.ConsoleClient", "MusicSystem.ConsoleClient\MusicSystem.ConsoleClient.csproj", "{8C77F8BD-39F0-4161-ABBE-819F2B97098E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSystem.Web", "MusicSystem.Web\MusicSystem.Web.csproj", "{F832FE2A-7CE2-43DC-AA1E-BFD580898E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{874373E0-2B70-4D68-96B0-19EDB43F4702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{874373E0-2B70-4D68-96B0-19EDB43F4702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{874373E0-2B70-4D68-96B0-19EDB43F4702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C77F8BD-39F0-4161-ABBE-819F2B97098E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C77F8BD-39F0-4161-ABBE-819F2B97098E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C77F8BD-39F0-4161-ABBE-819F2B97098E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C77F8BD-39F0-4161-ABBE-819F2B97098E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F832FE2A-7CE2-43DC-AA1E-BFD580898E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F832FE2A-7CE2-43DC-AA1E-BFD580898E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F832FE2A-7CE2-43DC-AA1E-BFD580898E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F832FE2A-7CE2-43DC-AA1E-BFD580898E90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

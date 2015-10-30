@@ -1,0 +1,48 @@
+﻿<div class="col-md-12 panel-body">
+    <a id="btn-get" class="btn btn-info col-md-12">GET</a>
+</div>
+<div class="col-md-12 panel-body">
+    <input id="p-name" class="input-lg col-md-4" type="text" placeholder="NAME" />
+    <input id="p-year" class="input-lg col-md-4" type="number" placeholder="YEAR" />
+    <input id="p-genre" class="input-lg col-md-4" type="number" placeholder="GENRE ID" />
+    <a id="btn-post" class="col-md-12 btn btn-success">POST</a>
+</div>
+<div class="col-md-12 panel-body">
+    <input id="d-id" class="input-lg col-md-12" type="number" placeholder="SONG ID" />
+    <a id="btn-del" class="btn btn-danger col-md-12">DELETE</a>
+</div>
+
+<script>
+    $('#btn-post').click(function () {
+        var name = $("#p-name").val(),
+            year = $('#p-year').val(),
+            genreId = $('#p-genre').val();
+
+        var postData = {
+            Name: name,
+            Year: year,
+            GenreId: genreId
+        };
+
+        jsonRequester.post('http://localhost:64320/api/Songs', { data: postData })
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+
+    $('#btn-get').click(function () {
+        jsonRequester.get('http://localhost:64320/api/Songs')
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+
+    $('#btn-del').click(function () {
+        var id = $("#d-id").val();
+
+        jsonRequester.del('http://localhost:64320/api/Songs/' + id)
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+</script>

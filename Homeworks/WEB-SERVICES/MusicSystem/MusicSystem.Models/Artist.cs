@@ -25,11 +25,5 @@
 
         [ForeignKey("CountryId")]
         public virtual Country Country { get; set; }
-        
-        public virtual IList<Album> Albums
-        {
-            get { return this.albums; }
-            set { this.albums = value; }
-        }
     }
 }

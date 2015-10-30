@@ -1,0 +1,41 @@
+﻿<div class="col-md-12 panel-body">
+    <a id="btn-get" class="btn btn-info col-md-12">GET</a>
+</div>
+<div class="col-md-12 panel-body">
+    <input id="p-name" class="input-lg col-md-6" type="text" placeholder="NAME" />
+    <input id="p-year" class="input-lg col-md-6" type="number" placeholder="YEAR" />
+    <input id="p-producerId" class="input-lg col-md-6" type="number" placeholder="PRODUCER ID" />
+    <input id="p-songIds" class="input-lg col-md-6" type="text" placeholder="SONG IDs" />
+    <input id="p-artistIds" class="input-lg col-md-12" type="text" placeholder="ARTIST IDs" />
+    <a id="btn-post" class="col-md-12 btn btn-success">POST</a>
+</div>
+
+<script>
+    $('#btn-post').click(function () {
+        var name = $("#p-name").val(),
+            year = $('#p-year').val(),
+            producer = $('#p-producerId').val(),
+            songIds = $('#p-songIds').val().match(/\d+/g),
+            artistIds = $('#p-artistIds').val().match(/\d+/g);
+
+        var postData = {
+            Name: name,
+            Year: year,
+            ProducerId: producer,
+            SongIds: songIds,
+            ArtistIds: artistIds
+        };
+
+        jsonRequester.post('http://localhost:64320/api/Albums', { data: postData })
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+
+    $('#btn-get').click(function () {
+        jsonRequester.get('http://localhost:64320/api/Albums')
+        .then(function (resp) {
+            $('#result').text(JSON.stringify(resp));
+        });
+    });
+</script>

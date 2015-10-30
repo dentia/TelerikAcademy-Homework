@@ -4,6 +4,7 @@
 
     using Migrations;
     using Models;
+    using System.Data.Entity.ModelConfiguration.Conventions;
 
     public class MusicSystemDbContext : DbContext
     {

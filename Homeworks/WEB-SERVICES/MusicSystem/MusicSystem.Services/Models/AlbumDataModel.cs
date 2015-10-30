@@ -15,5 +15,8 @@
 
         [Required]
         public int[] SongIds { get; set; }
+
+        [Required]
+        public int[] ArtistIds { get; set; }
     }
 }
