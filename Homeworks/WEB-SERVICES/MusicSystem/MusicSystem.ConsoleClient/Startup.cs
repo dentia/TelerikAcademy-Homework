@@ -26,7 +26,7 @@
             PrintJsonSongs(connection, "api/Songs");
             PostGenres(connection, "api/Genres");
             PutProducer(connection, "api/Producers/", 1);
-            DeleteGenre(connection, "api/Genres/", 1);
+            DeleteGenre(connection, "api/Genres/", 4);
 
             Console.ReadLine();
         }

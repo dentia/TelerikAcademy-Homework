@@ -11,7 +11,6 @@
         public MusicSystemDbContext()
             : base("MusicSystemConnection")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<MusicSystemDbContext, Configuration>());
         }
 
         public virtual IDbSet<Artist> Artists { get; set; }
