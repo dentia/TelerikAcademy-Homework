@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    
+
     public class Folder
     {
         public Folder(string name, string fullPath)
@@ -15,8 +15,11 @@
         }
 
         public string Name { get; set; }
+
         public List<File> Files { get; set; }
+
         public List<Folder> Folders { get; set; }
+
         public DirectoryInfo Directory { get; set; }
 
         public long GetSize()
