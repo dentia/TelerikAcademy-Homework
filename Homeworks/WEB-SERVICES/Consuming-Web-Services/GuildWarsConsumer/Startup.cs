@@ -49,7 +49,7 @@
         {
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("http://api.guildwars2.com/v2/items/");
+                client.BaseAddress = new Uri("http://api.guildwars2.com/v2/" + type + "/");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                 var response = client.GetAsync(id.ToString()).Result;
