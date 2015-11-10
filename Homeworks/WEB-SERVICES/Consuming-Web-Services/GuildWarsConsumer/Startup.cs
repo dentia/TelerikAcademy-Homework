@@ -1,4 +1,4 @@
-﻿namespace AutomediaConsumer
+﻿namespace GuildWarsConsumer
 {
     using System;
     using System.Collections.Generic;
