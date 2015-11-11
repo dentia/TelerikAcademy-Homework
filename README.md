@@ -4,7 +4,7 @@ Telerik Academy 2015/2016
 | C# Programming          | Web Design and UI                   | Software Technologies |
 |:-----------------------:|:-----------------------------------:|:---------------------:|
 | [C# Part 1](#c-part-1)  | [HTML](#html)                       | [DB](#db)             |
-| [C# Part 2](#c-part-2)  | [CSS](#css)                         |                       |
+| [C# Part 2](#c-part-2)  | [CSS](#css)                         | [WEB-SERVICES](#)     |
 | [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |                       |
 | [HQC](#hqc)             | [JS OOP](#js-oop)                   |                       |
 | [DSA](#dsa)             | [JS UI&DOM](#js-uidom)              |                       |
@@ -154,8 +154,20 @@ Telerik Academy 2015/2016
 
 ---
 
+###### [WEB-SERVICES](Homeworks/WEB-SERVICES)
+
+[*Go to top* ^](#telerikacademy)
+
+---
+
 ###### [DSA](Homeworks/DSA)
+* [Data-Structures-Algorithms-and-Complexity](Homeworks/DSA/Data-Structures-Algorithms-and-Complexity)
 * [Linear Data Structures](Homeworks/DSA/Linear-Data-Structures)
+* [Trees and Traversals](Homeworks/DSA/Trees-and-Traversals)
+* [Dictionaries, Hash Tables, and Sets](Homeworks/DSA/Dictionaries-Hash-Tables-and-Sets)
+* [Advanced Data Structures](Homeworks/DSA/Advanced-Data-Structures)
+* [Data Structures Efficiency](Homeworks/DSA/Data-Structure-Efficiency)
+* [Recursion](Homeworks/DSA/Recursion)
 
 [*Go to top* ^](#telerikacademy)
 
