@@ -1,14 +1,14 @@
 # TelerikAcademy
 Telerik Academy 2015/2016
 
-| C# Programming          | Web Design and UI                   | Software Technologies |
-|:-----------------------:|:-----------------------------------:|:---------------------:|
-| [C# Part 1](#c-part-1)  | [HTML](#html)                       | [DB](#db)             |
-| [C# Part 2](#c-part-2)  | [CSS](#css)                         | [WEB-SERVICES](#)     |
-| [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |                       |
-| [HQC](#hqc)             | [JS OOP](#js-oop)                   |                       |
-| [DSA](#dsa)             | [JS UI&DOM](#js-uidom)              |                       |
-|                         | [JS APPS](#js-apps)                 |                       |
+| C# Programming          | Web Design and UI                   | Software Technologies             |
+|:-----------------------:|:-----------------------------------:|:---------------------------------:|
+| [C# Part 1](#c-part-1)  | [HTML](#html)                       | [DB](#db)                         |
+| [C# Part 2](#c-part-2)  | [CSS](#css)                         | [WEB-SERVICES](#web-services)     |
+| [C# OOP](#c-oop)        | [JS Fundamentals](#js-fundamentals) |                                   |
+| [HQC](#hqc)             | [JS OOP](#js-oop)                   |                                   |
+| [DSA](#dsa)             | [JS UI&DOM](#js-uidom)              |                                   |
+|                         | [JS APPS](#js-apps)                 |                                   |
 
 
 ---
@@ -155,6 +155,8 @@ Telerik Academy 2015/2016
 ---
 
 ###### [WEB-SERVICES](Homeworks/WEB-SERVICES)
+* [ASP.NET Web API](Homeworks/WEB-SERVICES/ASP.NET-Web-API)
+* [Consuming-Web-Services](Homeworks/WEB-SERVICES/Consuming-Web-Services)
 
 [*Go to top* ^](#telerikacademy)
 
