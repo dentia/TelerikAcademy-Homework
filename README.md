@@ -170,6 +170,7 @@ Telerik Academy 2015/2016
 * [Advanced Data Structures](Homeworks/DSA/Advanced-Data-Structures)
 * [Data Structures Efficiency](Homeworks/DSA/Data-Structure-Efficiency)
 * [Recursion](Homeworks/DSA/Recursion)
+* [Combinatorics](Homeworks/DSA/Combinatorics)
 
 [*Go to top* ^](#telerikacademy)
 
