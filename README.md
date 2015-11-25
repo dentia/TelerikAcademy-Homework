@@ -172,6 +172,7 @@ Telerik Academy 2015/2016
 * [Recursion](Homeworks/DSA/Recursion)
 * [Combinatorics](Homeworks/DSA/Combinatorics)
 * [Sorting and Searching Algorithms](Homeworks/DSA/Sorting-and-Searching-Algorithms)
+* [Dynamic Programming](Homeworks/DSA/Dynamic-Programming)
 
 [*Go to top* ^](#telerikacademy)
 
