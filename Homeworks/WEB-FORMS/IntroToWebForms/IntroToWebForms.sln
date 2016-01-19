@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbers", "SumNumbers\SumNumbers.csproj", "{1D8906D6-76F1-4355-8118-6E51E956DE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbersInMVC", "SumNumbersInMVC\SumNumbersInMVC.csproj", "{DA542CE4-1F01-424C-9B66-5223370DA097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomHttpHandler", "CustomHttpHandler\CustomHttpHandler.csproj", "{AEB4D088-E593-4DB2-8242-868CC273845A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D8906D6-76F1-4355-8118-6E51E956DE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8906D6-76F1-4355-8118-6E51E956DE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8906D6-76F1-4355-8118-6E51E956DE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8906D6-76F1-4355-8118-6E51E956DE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA542CE4-1F01-424C-9B66-5223370DA097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA542CE4-1F01-424C-9B66-5223370DA097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA542CE4-1F01-424C-9B66-5223370DA097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA542CE4-1F01-424C-9B66-5223370DA097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB4D088-E593-4DB2-8242-868CC273845A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB4D088-E593-4DB2-8242-868CC273845A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB4D088-E593-4DB2-8242-868CC273845A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB4D088-E593-4DB2-8242-868CC273845A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
